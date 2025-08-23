@@ -1,0 +1,10 @@
+_config.yml
+_layouts/default.html
+index.md
+blog.md
+resume.md
+skills.md
+_posts/2025-08-22-hello-world.md
+_data/projects.yml
+assets/css/styles.css
+assets/resume.pdf
