@@ -1,0 +1,17 @@
+:root { --max: 900px; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header { border-bottom: 1px solid #e5e7eb; }
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem; max-width: var(--max); margin: 0 auto; }
+.brand { font-weight: 700; }
+.links a { margin-left: 1rem; }
+.links a[aria-current="page"] { font-weight: 700; }
+
+.container { max-width: var(--max); margin: 2rem auto; padding: 0 1rem; }
+h1, h2 { line-height: 1.25; }
+ul { padding-left: 1.25rem; }
+
+.site-footer { border-top: 1px solid #e5e7eb; padding: 1rem; text-align: center; color: #6b7280; }
