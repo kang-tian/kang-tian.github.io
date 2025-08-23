@@ -1,0 +1,23 @@
+database:
+  - name: Customer 360 Warehouse
+    url: https://github.com/kang-tian/customer-360
+    description: Star schema, SCD2 history, incremental loads.
+  - name: Service Appointments DB (Oracle + Access)
+    url: https://github.com/kang-tian/service-appointments
+    description: Triggers, views, history-tracked relationships.
+
+data_visualization:
+  - name: Flight Delays Dashboard
+    url: https://github.com/kang-tian/flight-delays-viz
+    description: Interactive drilldowns; outlier highlighting.
+  - name: COVID Trends in Canada
+    url: https://github.com/kang-tian/covid-trends
+    description: Choropleths and small multiples.
+
+modeling_ml:
+  - name: Demand Forecasting
+    url: https://github.com/kang-tian/demand-forecast
+    description: Feature store + XGBoost with cross-validation.
+  - name: Churn Prediction
+    url: https://github.com/kang-tian/churn-ml
+    description: Baseline → tuned model with SHAP insights.
