@@ -1,0 +1,9 @@
+title: "Kang Tian"
+description: "Blog & portfolio — data projects, visualization, and ML"
+url: "https://USERNAME.github.io"   # change USERNAME
+baseurl: ""                         # keep empty for user sites
+markdown: kramdown
+theme: null                         # we'll use our own layout
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
