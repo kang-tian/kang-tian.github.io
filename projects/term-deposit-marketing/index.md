@@ -18,53 +18,62 @@ The dataset includes:
 - **Last contact info:** contact type, last contact month/day, duration of last call.
 - **Other campaign data:** number of contacts in campaign, days since last contact, previous outcomes.
 - **Target variable:** deposit (yes/no).
-
+<br><br>
 ---
 
 ## 3. Data Handling
-- **Missing values:** Introduced artificially, then imputed using median/mean.
+- **Missing values:** imputed missing data using median.
+  ![missing1](/assets/images/td_missing1.png)
+  ![missing2](/assets/images/td_missing2.png)
 - **Outlier detection:** IQR-based method applied on numeric variables.
+  ![Outlier](/assets/images/td_outlier.png)
 - **Feature engineering:**
-  - Created `depositA` copy of deposit.
-  - Grouped jobs: employed/unemployed/not in labor force.
-  - Derived `duration_status` (above/below average).
-  - Created `balance_group`, `age_group`, etc.
-
+  - Choosing features for models after data exploration.
+<br> <br>
 ---
 
-## 4. Data Exploration & Visualization
+## 4. Data Exploration and Visualization & Feature engineering:
 
-Here we analyze distributions and relationships using **matplotlib, seaborn, and plotly**.  
+I analyzed distributions and relationships using **matplotlib, seaborn, and plotly**.  
+Below lists some different styles of graphs and techniques in data exploration 
 
 **Graphs**:  
+
 - Distribution of categorical variables (job, marital, education, housing loan).  
-  ![Job Distribution](/assets/images/td_job_distribution.png)  
-- Scatter plots of duration vs balance, segmented by deposit outcome.  
-  ![Duration vs Balance](/assets/images/td_duration_balance.png)  
-- Bar plots of duration_status vs deposit.  
-  ![Duration Status vs Deposit](/assets/images/td_duration_status.png)  
-- Percentage of clients by job group.  
-  ![Job Group Percentage](/assets/images/td_job_group.png)  
-- Deposit count by age group.  
-  ![Deposit by Age](/assets/images/td_deposit_age.png)  
-- Correlation heatmap.  
-  ![Correlation Heatmap](/assets/images/td_correlation.png)  
+  ![Job Distribution](/assets/images/td_job_distribution.png)   
+- Bar charts of categorical features vs deposit status.  
+  ![Deposit of Categories bar](/assets/images/td_category_bar.png)
+- Scatter plots of numeric features vs deposit status.  
+  ![Scatters](/assets/images/td_scatter.png)
+
+- Correlation heatmap (it is extremely important to detact the relationship between deposit features and other features.  
+  ![Correlation Heatmap](/assets/images/td_heatmap.png) 
+- Explore relationship between certain features (such as previous campaign outcome or month) and deposit status.  
+  ![Donut](/assets/images/td_donut.png)
+  ![Month](/assets/images/td_month.png)  
+- Use k-means clustering(an unsupervised machine learning algorithm) group data points into K clusters based on similarity.  
+  ![K-meas](/assets/images/td_k_means.png)  
+
+
 
 > **Note:** Replace `/assets/images/*.png` with your generated graphs from Python.
 
 ---
 
 ## 5. Modeling
-- **Feature Selection:** Selected predictors based on chi-square, correlation, and heatmaps: duration, pdays, campaign, poutcome_success, contact, housing, loan, job categories, month categories.  
-- **Models:** Logistic Regression, KNN, Decision Tree, SVM, XGBoost, KMeans clustering.  
 - **Data preparation:** Imputation, one-hot encoding, standardization, train-test split (70/30).  
+- **Feature Selection:** Selected predictors based on chi-square, correlation, and heatmaps: duration, pdays, campaign, poutcome_success, contact, housing, loan, job categories, month categories.
+  ![Selection0](/assets/images/td_top10_features.png)
+  ![Selection1](/assets/images/td_selection1.png)  td_selection1
+- **Models:** Logistic Regression, KNN, Decision Tree, SVM, XGBoost, KMeans clustering.  
+
 
 ---
 
 ## 6. Model Evaluation
 - Metrics: Accuracy, ROC-AUC, confusion matrices.  
 - **Graphs**:  
-  - ROC-AUC comparison: ![ROC Curves](/assets/images/td_roc_curves.png)  
+  - ROC-AUC comparison: ![ROC Curves](/assets/images/td_roc.png)  
   - Confusion matrices: ![Confusion Matrices](/assets/images/td_confusion.png)  
 
 ---
