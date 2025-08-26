@@ -6,79 +6,115 @@ permalink: /projects/term-deposit-marketing/
 
 # Term Deposit Marketing Campaign
 
-## 1. Introduction
-The purpose of this project is to analyze bank client data and build predictive models to determine whether a client will subscribe to a term deposit.  
-Key steps include exploring data, handling missing values/outliers, performing EDA, feature engineering, building models (Logistic Regression, KNN, Decision Tree, SVM, XGBoost), and evaluating them.
+---
+
+## 1. Introduction  
+This project looks at a bank marketing campaign and asks a simple question:  
+**“Can we predict whether a client will agree to open a term deposit?”**  
+
+To answer this, I worked through the full data science process:
+- Understanding and cleaning the data  
+- Exploring patterns with charts and statistics  
+- Creating new features that make the data more useful  
+- Building machine learning models (Logistic Regression, Decision Trees, SVM, XGBoost, etc.)  
+- Comparing how well the models predict client decisions  
 
 ---
 
-## 2. Data Description
-The dataset includes:
-- **Bank client data:** age, job, marital status, education, default, housing loan, personal loan, balance.
-- **Last contact info:** contact type, last contact month/day, duration of last call.
-- **Other campaign data:** number of contacts in campaign, days since last contact, previous outcomes.
-- **Target variable:** deposit (yes/no).
-<br><br>
----
-
-## 3. Data Handling
-- **Missing values:** imputed missing data using median.
-  ![missing1](/assets/images/td_missing1.png)
-  ![missing2](/assets/images/td_missing2.png)
-- **Outlier detection:** IQR-based method applied on numeric variables.
-  ![Outlier](/assets/images/td_outlier.png)
-- **Feature engineering:**
-  - Choosing features for models after data exploration.
-<br> <br>
----
-
-## 4. Data Exploration and Visualization & Feature engineering:
-
-I analyzed distributions and relationships using **matplotlib, seaborn, and plotly**.  
-Below lists some different styles of graphs and techniques in data exploration 
-
-**Graphs**:  
-
-- Distribution of categorical variables (job, marital, education, housing loan).  
-  ![Job Distribution](/assets/images/td_job_distribution.png)   
-- Bar charts of categorical features vs deposit status.  
-  ![Deposit of Categories bar](/assets/images/td_category_bar.png)
-- Scatter plots of numeric features vs deposit status.  
-  ![Scatters](/assets/images/td_scatter.png)
-
-- Correlation heatmap (it is extremely important to detact the relationship between deposit features and other features.  
-  ![Correlation Heatmap](/assets/images/td_heatmap.png) 
-- Explore relationship between certain features (such as previous campaign outcome or month) and deposit status.  
-  ![Donut](/assets/images/td_donut.png)
-  ![Month](/assets/images/td_month.png)  
-- Use k-means clustering(an unsupervised machine learning algorithm) group data points into K clusters based on similarity.  
-  ![K-meas](/assets/images/td_k_means.png)  
-
-
-
-> **Note:** Replace `/assets/images/*.png` with your generated graphs from Python.
+## 2. Data Overview  
+The dataset contains information about bank clients and previous campaigns.  
+Key groups of information:  
+- **Client profile:** age, job, marital status, education, loan status, account balance  
+- **Contact details:** how and when the client was last contacted, and for how long  
+- **Campaign history:** how many times the client was contacted before, and the outcome  
+- **Target variable:** whether the client said *yes* or *no* to a term deposit  
 
 ---
 
-## 5. Modeling
-- **Data preparation:** Imputation, one-hot encoding, standardization, train-test split (70/30).  
-- **Feature Selection:** Selected predictors based on chi-square, correlation, and heatmaps: duration, pdays, campaign, poutcome_success, contact, housing, loan, job categories, month categories.
-  ![Selection0](/assets/images/td_top10_features.png)
-  ![Selection1](/assets/images/td_selection1.png)  td_selection1
-- **Models:** Logistic Regression, KNN, Decision Tree, SVM, XGBoost, KMeans clustering.  
+## 3. Preparing the Data  
 
+- **Handling missing values**: filled in missing numbers using medians so results wouldn’t be skewed  
+  <img src="/assets/images/td_missing1.png" width="70%">  
+  <img src="/assets/images/td_missing2.png" width="70%">  
 
----
+- **Finding unusual values (outliers)**: spotted extreme numbers with boxplots  
+  <img src="/assets/images/td_outlier.png" width="70%">  
 
-## 6. Model Evaluation
-- Metrics: Accuracy, ROC-AUC, confusion matrices.  
-- **Graphs**:  
-  - ROC-AUC comparison: ![ROC Curves](/assets/images/td_roc.png)  
-  - Confusion matrices: ![Confusion Matrices](/assets/images/td_confusion.png)  
+- **Feature engineering**: created new, simplified variables (e.g., grouping jobs into broader categories, creating “above/below average duration” flags, etc.) to make the models more meaningful.  
 
 ---
 
-## 7. Conclusion
-- Completed end-to-end ML workflow: data cleaning, EDA, feature engineering, modeling, evaluation.  
-- Insights: duration, job type, and previous outcomes strongly influence deposit subscription.  
-- Predictive framework can help target clients in future marketing campaigns.
+## 4. Exploring the Data  
+
+To better understand patterns in the data, I created visualizations:  
+
+- **Who are the clients?**  
+  <img src="/assets/images/td_job_distribution.png" width="70%">  
+
+- **How client categories relate to deposits:**  
+  <img src="/assets/images/td_category_bar.png" width="70%">  
+
+- **Numeric factors (like call duration) vs. deposits:**  
+  <img src="/assets/images/td_scatter.png" width="70%">  
+
+- **Correlation heatmap** (to see which variables move together):  
+  <img src="/assets/images/td_heatmap.png" width="70%">  
+
+- **Previous campaign outcomes & seasonality (months):**  
+  <img src="/assets/images/td_donut.png" width="70%">  
+  <img src="/assets/images/td_month.png" width="70%">  
+
+- **Unsupervised clustering** (K-means) to group similar clients:  
+  <img src="/assets/images/td_k_means.png" width="70%">  
+
+---
+
+## 5. Building Models  
+
+Steps before training:  
+- Prepared the data (filled missing values, encoded categories, standardized numbers)  
+- Selected the most important features (such as call duration, number of contacts, month, job group, and previous campaign outcome)  
+  <img src="/assets/images/td_top10_features.png" width="70%">  
+  <img src="/assets/images/td_selection1.png" width="70%">  
+
+Models tested:  
+- Logistic Regression (baseline, interpretable model)  
+- K-Nearest Neighbors (KNN)  
+- Decision Tree  
+- Support Vector Machine (SVM)  
+- XGBoost (boosted decision trees)  
+- K-Means clustering (unsupervised segmentation)  
+
+---
+
+## 6. Model Evaluation  
+
+To measure success, I used:  
+- **Accuracy:** overall correctness  
+- **ROC-AUC curves:** ability to distinguish “yes” vs. “no” clients  
+- **Confusion matrices:** where models got predictions right or wrong  
+
+Results:  
+- Logistic Regression = simple and interpretable  
+- XGBoost & Decision Trees = best accuracy and captured complex patterns  
+- KNN & SVM = varied performance depending on parameters  
+
+**Graphs:**  
+- ROC Curves  
+  <img src="/assets/images/td_roc.png" width="70%">  
+
+- Confusion Matrices  
+  <img src="/assets/images/td_confusion.png" width="70%">  
+
+---
+
+## 7. Conclusion  
+
+This project showed the full journey from raw client data to predictive insights.  
+
+**Main takeaways:**  
+- Longer call duration, client job type, and past campaign outcomes are strong indicators of whether someone will subscribe.  
+- Machine learning models like Decision Trees and XGBoost perform best for prediction.  
+- The framework can help banks focus on clients most likely to say “yes” to a term deposit, making campaigns more efficient.  
+
+---
