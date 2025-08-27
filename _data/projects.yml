@@ -1,6 +1,6 @@
 database:
-  - name: Customer 360 Warehouse
-    url: https://github.com/kang-tian/customer-360
+  - name: NoSQL: Fetch data from website and stored in MongoDB
+    url: project/NoSQL-MongoDB-Fetch-Web
     description: Star schema, SCD2 history, incremental loads.
   - name: Service Appointments DB (Oracle + Access)
     url: https://github.com/kang-tian/service-appointments
@@ -18,6 +18,6 @@ modeling_ml:
   - name: Term Deposit Marketing Campaign
     url: /projects/term-deposit-marketing/
     description: Analyze bank client data to predict term deposit subscription using Python and ML models
-  - name: Churn Prediction
-    url: https://github.com/kang-tian/churn-ml
-    description: Baseline → tuned model with SHAP insights.
+  - name: NLP: Review Sentiment Analysis for BestBuy
+    url: /projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/
+    description: Conduct sentiment analysis utilizing Natual Language Processing(NLP)
