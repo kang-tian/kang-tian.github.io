@@ -30,7 +30,7 @@ Reviews were collected from Trustpilot with a loop handling multiple pages. Each
 
 **Graph 1 – Reviews per Page:**  
 <p align="center">
-  <img src="link-to-graph1" alt="Reviews per Page" width="600"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1" alt="Reviews per Page" width="70%"/>
 </p>
 
 ---
@@ -41,7 +41,7 @@ All reviews are stored in **MongoDB**, which enables easy querying and analysis 
 
 **Graph 2 – Data in MongoDB:**  
 <p align="center">
-  <img src="link-to-graph2" alt="Data in MongoDB" width="600"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture2" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
@@ -84,7 +84,7 @@ Three models were used:
 
 **Graph 3 – Sentiment Distribution:**  
 <p align="center">
-  <img src="link-to-graph3" alt="Sentiment Distribution" width="600"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture3" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
@@ -95,13 +95,9 @@ ABSA focuses on **key service aspects** such as **delivery, price, quality, and 
 
 **Graph 4 – Aspect Sentiment Comparison:**  
 <p align="center">
-  <img src="link-to-graph4" alt="Aspect Sentiment Comparison" width="600"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture5" alt="Data in MongoDB" width="70%"/>
 </p>
 
-**Graph 5 – Word Clouds per Aspect:**  
-<p align="center">
-  <img src="link-to-graph5" alt="Word Clouds per Aspect" width="600"/>
-</p>
 
 ---
 
@@ -109,9 +105,9 @@ ABSA focuses on **key service aspects** such as **delivery, price, quality, and 
 
 Topic modeling uncovers **hidden themes** in customer reviews and helps identify **recurring patterns** and common concerns.
 
-**Graph 6 – Topic Modeling:**  
+**Graph 5 – Topic Modeling:**  
 <p align="center">
-  <img src="link-to-graph6" alt="Topic Modeling" width="600"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture6" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
@@ -120,9 +116,9 @@ Topic modeling uncovers **hidden themes** in customer reviews and helps identify
 
 Analyzing sentiment trends provides insights into **changes in customer perception** over time. This helps monitor improvements or declines in service quality.
 
-**Graph 7 – Sentiment Trends Over Time:**  
+**Graph 6 – Sentiment Trends Over Time:**  
 <p align="center">
-  <img src="link-to-graph7" alt="Sentiment Trends" width="600"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture7" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
