@@ -30,7 +30,7 @@ Reviews were collected from Trustpilot with a loop handling multiple pages. Each
 
 **Graph 1 – Reviews per Page:**  
 <p align="center">
-  <img src="projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1" alt="Reviews per Page" width="70%"/>
+  <img src="projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1.png" alt="Reviews per Page" width="70%"/>
 </p>
 
 ---
@@ -41,7 +41,7 @@ All reviews are stored in **MongoDB**, which enables easy querying and analysis 
 
 **Graph 2 – Data in MongoDB:**  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture2" alt="Data in MongoDB" width="70%"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture2.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
@@ -84,7 +84,7 @@ Three models were used:
 
 **Graph 3 – Sentiment Distribution:**  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture3" alt="Data in MongoDB" width="70%"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture3.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
@@ -95,7 +95,7 @@ ABSA focuses on **key service aspects** such as **delivery, price, quality, and 
 
 **Graph 4 – Aspect Sentiment Comparison:**  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture5" alt="Data in MongoDB" width="70%"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture5.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
 
@@ -107,7 +107,7 @@ Topic modeling uncovers **hidden themes** in customer reviews and helps identify
 
 **Graph 5 – Topic Modeling:**  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture6" alt="Data in MongoDB" width="70%"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture6.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
@@ -118,7 +118,7 @@ Analyzing sentiment trends provides insights into **changes in customer percepti
 
 **Graph 6 – Sentiment Trends Over Time:**  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture7" alt="Data in MongoDB" width="70%"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture7.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
 ---
