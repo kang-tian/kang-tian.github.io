@@ -8,7 +8,7 @@ Customer reviews provide **valuable insights** into a company’s products and s
 
 ---
 
-## 📌 Project Workflow and Importance
+## Project Workflow and Importance
 
 Understanding customer sentiment is crucial for **improving service quality and customer satisfaction**. The workflow includes:
 
@@ -123,7 +123,7 @@ Analyzing sentiment trends provides insights into **changes in customer percepti
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This project highlights the **power of NLP** in extracting actionable insights from customer reviews:
 
@@ -137,5 +137,5 @@ This project highlights the **power of NLP** in extracting actionable insights f
 
 ## References
 
-- [Trustpilot](https://www.trustpilot.com/) – Customer review platform  
+- [Trustpilot](https://ca.trustpilot.com/review/bestbuy.ca) – Customer review platform  
 - Python packages: Selenium, MongoDB, NLP libraries (TextBlob, Transformers, NLTK)
