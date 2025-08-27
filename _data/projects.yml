@@ -1,6 +1,6 @@
 database:
   - name: "NoSQL: Fetch data from website and stored in MongoDB"
-    url: "projects/NoSQL-MongoDB-Fetch-Web"
+    url: "/projects/NoSQL-MongoDB-Fetch-Web"
     description: "Star schema, SCD2 history, incremental loads."
   - name: "Service Appointments DB (Oracle + Access)"
     url: "https://github.com/kang-tian/service-appointments"
