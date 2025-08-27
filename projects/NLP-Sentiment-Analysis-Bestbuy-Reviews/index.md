@@ -30,7 +30,7 @@ Reviews were collected from Trustpilot with a loop handling multiple pages. Each
 
 **Graph 1 – Reviews per Page:**  
 <p align="center">
-  <img src="projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1.png" alt="Reviews per Page" width="70%"/>
 </p>
 
 ---
