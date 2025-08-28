@@ -6,6 +6,7 @@ title: "NLP Project: Review Sentiment Analysis for BestBuy"
 
 Customer reviews provide **valuable insights** into a company’s products and services. This project performs a **comprehensive sentiment analysis** on *BestBuy* reviews collected from **Trustpilot**, integrating **data collection, storage, cleaning, sentiment modeling, aspect-based analysis, topic modeling, and sentiment trend visualization**. The goal is to extract actionable insights for business improvement.
 
+
 ---
 
 ## Project Workflow and Importance
