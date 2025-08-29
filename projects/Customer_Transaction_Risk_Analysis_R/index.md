@@ -53,7 +53,6 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture5.png" alt="Reviews per Page" width="70%"/>
 </p>    
 
-
 **Merchant insights:**  
 - Pie: NA vs. valid merchants (share of total amount)  
 - Top 15 merchants by total amount (bar, horizontal)  
@@ -102,7 +101,6 @@ Aggregate to one row per `customer_id`:
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture10.png" alt="Reviews per Page" width="70%"/>
 </p>   
-     <br><br>
 
 ---
 
@@ -125,8 +123,7 @@ Aggregate to one row per `customer_id`:
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture12.png" alt="Reviews per Page" width="70%"/>
-</p>    <br><br>
-  
+</p>   
 
 ---
 
@@ -149,7 +146,7 @@ Aggregate to one row per `customer_id`:
   - Variable importance (top drivers)  
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture15.png" alt="Reviews per Page" width="70%"/>
-</p>    <br><br>
+</p>  
 
 
 ---
