@@ -64,7 +64,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture7.png" alt="Reviews per Page" width="70%"/>
 </p>   
-
+<p></p>
 ---  
 
 ## 4) Customer-Level Feature Engineering
@@ -78,7 +78,7 @@ Aggregate to one row per `customer_id`:
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture8.png" alt="Reviews per Page" width="70%"/>
 </p>
-
+<p></p>
 ---
 
 ## 5) Clustering (Unsupervised Segmentation)
@@ -101,7 +101,7 @@ Aggregate to one row per `customer_id`:
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture10.png" alt="Reviews per Page" width="70%"/>
 </p>   
-
+<p></p>
 ---
 
 ## 6) RFM Analysis (Segmentation)
@@ -123,8 +123,8 @@ Aggregate to one row per `customer_id`:
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture12.png" alt="Reviews per Page" width="70%"/>
-</p>   
-
+</p>
+<p></p>
 ---
 
 ## 7) Predictive Modeling (High-Value Customers)
@@ -146,8 +146,8 @@ Aggregate to one row per `customer_id`:
   - Variable importance (top drivers)  
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture15.png" alt="Reviews per Page" width="70%"/>
-</p>  
-
+</p>
+<p></p>
 
 ---
 
