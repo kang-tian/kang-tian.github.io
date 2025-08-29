@@ -1,4 +1,4 @@
-# Customer Transaction & Risk Analysis Project (R)
+# Customer Transaction Predictive Analysis & Segmentation (R)
 
 ## 1. Introduction
 This project aims to perform a comprehensive **customer transaction analysis** on a banking dataset. The objective is to understand customer behaviors, identify potential risk factors, and build predictive models that can help the bank make informed lending decisions. The workflow includes **data exploration, preprocessing, feature engineering, RFM analysis, modeling, and evaluation**.
