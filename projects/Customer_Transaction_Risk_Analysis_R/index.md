@@ -40,21 +40,21 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 - Decomposition by movement (facet lines for count & amount).  
 - Heatmaps.  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture1.png" alt="Reviews per Page" width="70%"/>
 </p>
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture2.png" alt="Reviews per Page" width="70%"/>
-</p>
-
-<p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture3.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture2.png" alt="Reviews per Page" width="70%"/>
 </p>
 
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture4.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture3.png" alt="Reviews per Page" width="70%"/>
+</p>
+
+<p align="center">
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture4.png" alt="Reviews per Page" width="70%"/>
 </p>
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture5.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture5.png" alt="Reviews per Page" width="70%"/>
 </p>
 
 **Merchant insights:**  
@@ -63,10 +63,10 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 - Category breakdowns: movement, status, txn_description, gender, age_group (value & count facets).  
 
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture6.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture6.png" alt="Reviews per Page" width="70%"/>
 </p>
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture7.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture7.png" alt="Reviews per Page" width="70%"/>
 </p>
 ---
 
@@ -79,7 +79,7 @@ Aggregate to one row per `customer_id`:
 - Activity window: first_txn, last_txn, days_active, recency_days  
 - Activity rates: txn_per_day, txn_per_month  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture8.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture8.png" alt="Reviews per Page" width="70%"/>
 </p>
 
 ---
@@ -99,10 +99,10 @@ Aggregate to one row per `customer_id`:
 - Profile charts.  
 
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture9.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture9.png" alt="Reviews per Page" width="70%"/>
 </p>
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture10.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture10.png" alt="Reviews per Page" width="70%"/>
 </p>
   
 
@@ -123,10 +123,10 @@ Aggregate to one row per `customer_id`:
 - Else → Others  
 
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture11.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture11.png" alt="Reviews per Page" width="70%"/>
 </p>
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture12.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture12.png" alt="Reviews per Page" width="70%"/>
 </p>
   
 
@@ -140,29 +140,25 @@ Aggregate to one row per `customer_id`:
 - **Train/Test Split:** 70/30 with stratification.  
 - **Baseline Model:** Decision Tree (rpart, cp = 0.01)  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture13.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture13.png" alt="Reviews per Page" width="70%"/>
 </p>
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture14.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture14.png" alt="Reviews per Page" width="70%"/>
 </p>
 
 - **Ensemble Model:** Random Forest (caret::train, 5-fold CV, metric = ROC)  
   - Evaluation: confusion matrix + AUC  
   - Variable importance (top drivers)  
 <p align="center">
-  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture16.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture15.png" alt="Reviews per Page" width="70%"/>
 </p>
 
 ---
 
 ## 8) Salary Signal
 
-If salary-like transactions exist (keyword search), compute:  
-- median_salary_txn and estimated_annual_salary = median_salary_txn * 12.  
-
-
-**Outputs:** residual plot, merged into `customer_summary_with_salary.csv`.
-
+If salary-like transactions exist, detect the frequency (monthly or bi-weekly) compute:  
+- median_salary_txn and estimated_annual_salary = median_salary_txn * frequency.  
 
 
 ---
