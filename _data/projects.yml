@@ -1,8 +1,10 @@
 Data Analysis, Visualization, and Modeling (Machine Learning):
-  - name: "Customer Transaction Predictive Analysis & Segmentation (R) "
+  - name: "Customer Transaction Predictive Analysis & Segmentation (R)"
     url: "/projects/Customer_Transaction_Risk_Analysis_R/"
-    description: "This project performs a comprehensive customer transaction and risk analysis, combining data preprocessing, 
-                  RFM segmentation, predictive modeling, and visualization to identify key customer behaviors and risk patterns."
+    description: |
+      This project performs a comprehensive customer transaction and risk analysis, 
+      combining data preprocessing, RFM segmentation, predictive modeling, and visualization 
+      to identify key customer behaviors and risk patterns.
   - name: "NLP: Review Sentiment Analysis for BestBuy  (Python + MongoDB) "
     url: "/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/"
     description: "Conduct sentiment analysis utilizing Natural Language Processing (NLP)"
