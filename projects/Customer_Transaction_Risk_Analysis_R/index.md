@@ -15,7 +15,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 
 **Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.     <br><br>
 
----   
+---
 
 ## 2) Data Ingestion & Setup
 
