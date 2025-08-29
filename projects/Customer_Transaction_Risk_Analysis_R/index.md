@@ -126,7 +126,7 @@ Aggregate to one row per `customer_id`:
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture12.png" alt="Reviews per Page" width="70%"/>
-</p>
+</p>    <br><br>
   
 
 ---
@@ -150,7 +150,7 @@ Aggregate to one row per `customer_id`:
   - Variable importance (top drivers)  
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture15.png" alt="Reviews per Page" width="70%"/>
-</p>
+</p>    <br><br>
 
 
 ---
@@ -158,7 +158,7 @@ Aggregate to one row per `customer_id`:
 ## 8) Salary Signal
 
 If salary-like transactions exist, detect the frequency (monthly or bi-weekly) compute:  
-- median_salary_txn and estimated_annual_salary = median_salary_txn * frequency.  
+- median_salary_txn and estimated_annual_salary = median_salary_txn * frequency.      <br><br>
 
 
 ---
@@ -167,4 +167,4 @@ If salary-like transactions exist, detect the frequency (monthly or bi-weekly) c
 
 - Behavioral segments from KMeans + RFM highlight clear groups (*champions, stable core, at-risk*).  
 - Predictive models separate high-value customers with interpretable drivers (*frequency, recency, avg amount*).  
-- **Actionable levers:** tailor offers by cluster/RFM, nudge at-risk, cultivate potential loyalists, and prioritize high-value predictions.  
+- **Actionable levers:** tailor offers by cluster/RFM, nudge at-risk, cultivate potential loyalists, and prioritize high-value predictions.     <br><br>
