@@ -67,7 +67,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture7.png" alt="Reviews per Page" width="70%"/>
 </p>   <br><br>
 
----   <br><br>
+---  
 
 ## 4) Customer-Level Feature Engineering
 
@@ -102,7 +102,7 @@ Aggregate to one row per `customer_id`:
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture10.png" alt="Reviews per Page" width="70%"/>
-</p>
+</p>    <br><br>
   
 
 ---
