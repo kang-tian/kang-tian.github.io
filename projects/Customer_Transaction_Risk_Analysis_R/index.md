@@ -5,7 +5,7 @@ Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · K
 
 **Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-   <br><br>
 
-----   <br><br>
+---
 
 ## 1) Overview
 
@@ -15,7 +15,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 
 **Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.     <br><br>
 
----   <br><br>
+---   
 
 ## 2) Data Ingestion & Setup
 
@@ -26,7 +26,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 - Derive `age_group` & `balance_group`.
 - Missingness summary computed to prioritize fixes and understand data reliability.    <br><br>
 
----   <br><br>
+---  
 
 ## 3) Transaction-Level EDA
 
@@ -102,8 +102,8 @@ Aggregate to one row per `customer_id`:
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture10.png" alt="Reviews per Page" width="70%"/>
-</p>    <br><br>
-  
+</p>   
+     <br><br>
 
 ---
 
