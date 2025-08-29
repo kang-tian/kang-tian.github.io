@@ -1,14 +1,14 @@
-Data Analysis, Visualization, and Modeling (Machine Learning):
+data_analysis_ml:
   - name: "Customer Transaction Predictive Analysis & Segmentation (R)"
     url: "/projects/Customer_Transaction_Risk_Analysis_R/"
     description: |
       This project performs a comprehensive customer transaction and risk analysis, 
       combining data preprocessing, RFM segmentation, predictive modeling, and visualization 
       to identify key customer behaviors and risk patterns.
-  - name: "NLP: Review Sentiment Analysis for BestBuy  (Python + MongoDB) "
+  - name: "NLP: Review Sentiment Analysis for BestBuy (Python + MongoDB)"
     url: "/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/"
     description: "Conduct sentiment analysis utilizing Natural Language Processing (NLP)"
-  - name: "Term Deposit Marketing Campaign (Python) "
+  - name: "Term Deposit Marketing Campaign (Python)"
     url: "/projects/term-deposit-marketing/"
     description: "Analyze bank client data to predict term deposit subscription using Python and ML models"
   - name: "Public Data analysis"
@@ -23,8 +23,7 @@ database:
     url: "/projects/NoSQL-MongoDB-Fetch-Web"
     description: "Star schema, SCD2 history, incremental loads."
 
-Programming:
+programming:
   - name: "Full-Stack Web Development: Website for visualizing financial data automatically"
     url: "https://github.com/kang-tian/flight-delays-viz"
     description: "html, css, javascript, php, sql"
-
