@@ -1,147 +1,172 @@
-# Customer Transaction Predictive Analysis & Segmentation (R)
+# Customer Transaction Analysis & Segmentation (R)
 
-## 1. Introduction
-This project aims to perform a comprehensive **customer transaction analysis** on a banking dataset. The objective is to understand customer behaviors, identify potential risk factors, and build predictive models that can help the bank make informed lending decisions. The workflow includes **data exploration, preprocessing, feature engineering, RFM analysis, modeling, and evaluation**.
+## Keywords
+Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · KMeans Clustering · Silhouette Score · PCA Cluster Viz · Time Series · High-Value Prediction · Decision Tree · Random Forest 
+
+**Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository:: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-
+---
+
+## 1) Overview
+
+This project explores and segments customer transactions using an **ANZ dataset**.  
+The workflow covers **data cleaning, transaction-level exploration, visualization, customer-level feature engineering, and RFM analysis**.  
+The goal is to uncover behavioral patterns, identify high-value customers, and support customer segmentation strategies.
+
+- **Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.  
+
 
 ---
 
-## 2. Data Description
-The dataset contains information about bank clients and their credit status. It includes:
+## 2) Data Ingestion & Setup
 
-- **Client Information:** Age, job type, marital status, education, etc.
-- **Financial Indicators:** Credit amount, duration, and previous defaults.
-- **Target Variable:** Credit risk outcome (good or bad).
+- Load CSV with robust type guessing and parsing checks.  
+- Trim char fields; coerce numeric fields (amount, balance, card_present_flag).  
+- Ensure `customer_id` exists and is character.  
+- Parse dates with `mdy → dmy → ymd` fallback; derive `txn_date, year, month, day, hour, weekday`.  
+- Derive `age_group` & `balance_group`.
+- Missingness summary computed to prioritize fixes and understand data reliability.
 
-The dataset consists of both **numerical and categorical variables**, which requires proper preprocessing before modeling.
-
----
-
-## 3. Data Cleaning & Preprocessing
-Data cleaning involves:
-
-- Handling missing values by imputation or removal.
-- Converting categorical variables into numerical representations (e.g., one-hot encoding).
-- Correcting inconsistent or erroneous entries.
-- Ensuring the dataset is in a consistent format for further analysis.
-
-This step ensures that the models receive **accurate and clean data** to learn from.
 
 ---
 
-## 4. Exploratory Data Analysis (EDA)
-EDA helps in understanding **data distributions and relationships**:
+## 3) Transaction-Level EDA
 
-- Distribution of credit amounts and durations.
-- Customer demographics analysis (age, job type, marital status).
-- Correlation between financial indicators and credit risk.
+**Descriptive stats** (count, total, mean/median, sd, min/max, quantiles) plus demographics:  
+- Customers by age group and gender.
+- Distributions of transaction amounts (log-scale histogram + boxplot).  
+- Daily trends (count & total amount) with LOESS smoothing.  
+- Decomposition by movement (facet lines for count & amount).  
+- Heatmaps.  
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture2.png" alt="Reviews per Page" width="70%"/>
+</p>
 
-**[Insert Graph Here]**
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture3.png" alt="Reviews per Page" width="70%"/>
+</p>
 
-Observations from EDA provide insights into **patterns and anomalies** that could affect model performance.
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture4.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture5.png" alt="Reviews per Page" width="70%"/>
+</p>
+
+**Merchant insights:**  
+- Pie: NA vs. valid merchants (share of total amount)  
+- Top 15 merchants by total amount (bar, horizontal)  
+- Category breakdowns: movement, status, txn_description, gender, age_group (value & count facets).  
+
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture6.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture7.png" alt="Reviews per Page" width="70%"/>
+</p>
+---
+
+## 4) Customer-Level Feature Engineering
+
+Aggregate to one row per `customer_id`:  
+- txn_count, total_amount, avg_amount, median_amount, max_amount  
+- balance_mean, distinct_merchants, card_present_pct  
+- Salary/Payroll detection via keywords; salary_txn_count  
+- Activity window: first_txn, last_txn, days_active, recency_days  
+- Activity rates: txn_per_day, txn_per_month  
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture8.png" alt="Reviews per Page" width="70%"/>
+</p>
 
 ---
 
-## 5. Handling Missing Values
-Missing data can bias model results. Typical strategies include:
+## 5) Clustering (Unsupervised Segmentation)
 
-- **Numerical Columns:** Filling with mean or median.
-- **Categorical Columns:** Filling with the mode or a special category like "Unknown".
-- **Dropping Rows:** Only if missing values are minimal and not critical.
+**Goal:** group customers by behavior (volume, activity, recency, merchant diversity).
 
-Proper handling ensures **robustness and reliability** in modeling.
+- **Features (scaled):** total_amount, txn_count, avg_amount, balance_mean, distinct_merchants, card_present_pct, txn_per_month, recency_days.  
+- **Model selection:** KMeans with silhouette scores across k = 2..8 → choose best_k.  
+- **Final model:** KMeans with best_k = 2.
+- **Visualization:** PCA plot of clusters.  
+- **Exports:** `customer_summary_with_clusters.csv`.
 
----
+**Cluster profiling (per cluster):**  
+- Size, avg_total_amount, avg_txn_count, avg_avg_amount, avg_balance, ...
+- Profile charts.  
 
-## 6. Feature Engineering
-Feature engineering creates new variables to improve model performance:
-
-- Deriving ratios like **credit amount per month**.
-- Combining categorical variables for interaction effects.
-- Encoding temporal variables to capture trends.
-- Creating **risk indicators** based on customer history.
-
-These engineered features often capture **latent patterns** not obvious in raw data.
-
----
-
-## 7. Data Transformation
-Data transformation prepares features for modeling:
-
-- Normalization or standardization of numerical variables.
-- Encoding categorical features with one-hot or label encoding.
-- Reducing dimensionality if necessary (e.g., PCA).
-
-Transformed data ensures **models converge faster** and perform better.
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture9.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture10.png" alt="Reviews per Page" width="70%"/>
+</p>
+  
 
 ---
 
-## 8. RFM Analysis
-RFM (Recency, Frequency, Monetary) analysis evaluates **customer behavior patterns**:
+## 6) RFM Analysis (Segmentation)
 
-- **Recency (R):** How recently the customer interacted with the bank or took a loan.
-- **Frequency (F):** How often the customer engages or takes loans.
-- **Monetary (M):** The amount of money involved in their transactions.
+**RFM metrics per customer:**  
+- Recency (days since last txn), Frequency (txn count), Monetary (total spend).  
 
-By scoring each customer on R, F, and M, we can segment them into **risk groups**:
+**Scoring:** 1 (worst) to 5 (best):  
+**Segments (example scheme):**  
+- 444–555 → Champions  
+- 333–444 → Loyal Customers  
+- High R, low F & M → Recent Customers  
+- Low R, high F & M → Potential Loyalists  
+- 111–222 → At Risk  
+- Else → Others  
 
-- High R, F, M → Loyal, active, and potentially low-risk customers.
-- Low R, F, M → Dormant or high-risk customers.
-- Mixed scores → Moderate engagement or targeted intervention needed.
-
-**[Insert RFM Graph Here]**
-
-RFM segmentation provides an **additional perspective on credit risk**, supplementing traditional features.
-
----
-
-## 9. Data Visualization
-Visualization helps communicate findings:
-
-- Bar plots for categorical variable distributions.
-- Histograms and boxplots for numerical variables.
-- Heatmaps for correlations.
-- Trend plots over time for customer engagement.
-
-**[Insert Graphs Here]**
-
-Effective visualizations make patterns **easier to interpret and act upon**.
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture11.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture12.png" alt="Reviews per Page" width="70%"/>
+</p>
+  
 
 ---
 
-## 10. Modeling
-Modeling involves **predicting credit risk** using various algorithms:
+## 7) Predictive Modeling (High-Value Customers)
 
-- **Logistic Regression:** Baseline model for binary classification.
-- **Decision Trees / Random Forest:** Captures non-linear relationships and feature interactions.
-- **Gradient Boosting / XGBoost:** Often yields high accuracy on tabular data.
-- **Neural Networks:** For capturing complex patterns in large datasets.
+**Target definition:** High if total_amount in top 25% (≥ 75th percentile), else Low.  
 
-Models are trained on **historical data** and tested on unseen samples.
+**Data:** engineered customer features + (optional) cluster label.  
+- **Train/Test Split:** 70/30 with stratification.  
+- **Baseline Model:** Decision Tree (rpart, cp = 0.01)  
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture13.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture14.png" alt="Reviews per Page" width="70%"/>
+</p>
 
----
-
-## 11. Model Evaluation
-Evaluation metrics measure model performance:
-
-- **Accuracy:** Percentage of correctly predicted credit outcomes.
-- **Precision, Recall, F1-Score:** For imbalanced classes, especially high-risk loans.
-- **ROC-AUC:** Measures the ability to distinguish between good and bad credit.
-
-Visualizations like **confusion matrices and ROC curves** help interpret model quality.
-
-**[Insert Evaluation Graphs Here]**
-
-Evaluation ensures the model is **reliable and generalizable** for future predictions.
+- **Ensemble Model:** Random Forest (caret::train, 5-fold CV, metric = ROC)  
+  - Evaluation: confusion matrix + AUC  
+  - Variable importance (top drivers)  
+<p align="center">
+  <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture16.png" alt="Reviews per Page" width="70%"/>
+</p>
 
 ---
 
-## 12. Conclusion
-This project demonstrates a complete **credit risk analysis workflow**:
+## 8) Salary Signal
 
-- Cleaned and preprocessed data.
-- Explored patterns through EDA.
-- Engineered meaningful features and performed RFM analysis.
-- Built predictive models and evaluated their performance.
-- Visualized insights for clear communication.
+If salary-like transactions exist (keyword search), compute:  
+- median_salary_txn and estimated_annual_salary = median_salary_txn * 12.  
 
-The analysis highlights **key risk factors and customer segments**, enabling the bank to make informed lending decisions and improve risk management strategies.
+
+**Outputs:** residual plot, merged into `customer_summary_with_salary.csv`.
+
+
+
+---
+
+## 9) Executive Takeaways 
+
+- Behavioral segments from KMeans + RFM highlight clear groups (*champions, stable core, at-risk*).  
+- Predictive models separate high-value customers with interpretable drivers (*frequency, recency, avg amount*).  
+- **Actionable levers:** tailor offers by cluster/RFM, nudge at-risk, cultivate potential loyalists, and prioritize high-value predictions.  
