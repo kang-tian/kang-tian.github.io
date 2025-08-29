@@ -3,7 +3,7 @@
 ## Keywords
 Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · KMeans Clustering · Silhouette Score · PCA Cluster Viz · Time Series · High-Value Prediction · Decision Tree · Random Forest 
 
-**Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository:: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-
+**Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-
 
 
 ----
@@ -14,7 +14,7 @@ This project explores and segments customer transactions using an **ANZ dataset*
 The workflow covers **data cleaning, transaction-level exploration, visualization, customer-level feature engineering, and RFM analysis**.  
 The goal is to uncover behavioral patterns, identify high-value customers, and support customer segmentation strategies.
 
-- **Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.  
+**Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.  
 
 
 ---
