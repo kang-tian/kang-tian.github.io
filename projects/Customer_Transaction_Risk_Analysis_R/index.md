@@ -14,6 +14,7 @@ This project explores and segments customer transactions using an **ANZ dataset*
 The workflow covers **data cleaning, transaction-level exploration, visualization, customer-level feature engineering, and RFM analysis**.  
 The goal is to uncover behavioral patterns, identify high-value customers, and support customer segmentation strategies.
 
+
 **Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.  
 
 
@@ -143,7 +144,7 @@ Aggregate to one row per `customer_id`:
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture13.png" alt="Reviews per Page" width="70%"/>
 </p>
 <p align="center">
-  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture14.png" alt="Reviews per Page" width="70%"/>
+  <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture14.png" alt="Reviews per Page" width="50%"/>
 </p>
 
 - **Ensemble Model:** Random Forest (caret::train, 5-fold CV, metric = ROC)  
@@ -152,6 +153,7 @@ Aggregate to one row per `customer_id`:
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture15.png" alt="Reviews per Page" width="70%"/>
 </p>
+
 
 ---
 
