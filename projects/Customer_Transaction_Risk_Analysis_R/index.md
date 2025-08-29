@@ -3,9 +3,9 @@
 ## Keywords
 Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · KMeans Clustering · Silhouette Score · PCA Cluster Viz · Time Series · High-Value Prediction · Decision Tree · Random Forest   <br><br>
 
-**Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-   <br><br><br>
+**Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-   <br><br>
 
-----
+----   <br><br>
 
 ## 1) Overview
 
@@ -15,7 +15,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 
 **Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.     <br><br>
 
----
+---   <br><br>
 
 ## 2) Data Ingestion & Setup
 
@@ -26,7 +26,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 - Derive `age_group` & `balance_group`.
 - Missingness summary computed to prioritize fixes and understand data reliability.    <br><br>
 
----
+---   <br><br>
 
 ## 3) Transaction-Level EDA
 
@@ -52,8 +52,8 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture5.png" alt="Reviews per Page" width="70%"/>
-</p>
-&nbsp;
+</p>     <br><br>
+
 
 **Merchant insights:**  
 - Pie: NA vs. valid merchants (share of total amount)  
@@ -65,10 +65,9 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture7.png" alt="Reviews per Page" width="70%"/>
-</p>
-&nbsp;
+</p>   <br><br>
 
----
+---   <br><br>
 
 ## 4) Customer-Level Feature Engineering
 
