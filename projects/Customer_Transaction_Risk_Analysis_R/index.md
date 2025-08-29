@@ -2,9 +2,9 @@
 
 ## Keywords
 Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · KMeans Clustering · Silhouette Score · PCA Cluster Viz · Time Series · High-Value Prediction · Decision Tree · Random Forest 
-&nbsp;
+<br><br>
 **Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-
-&nbsp;
+<br><br>
 
 ----
 
