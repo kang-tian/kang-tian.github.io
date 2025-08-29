@@ -11,11 +11,9 @@ Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · K
 
 This project explores and segments customer transactions using an **ANZ dataset**.  
 The workflow covers **data cleaning, transaction-level exploration, visualization, customer-level feature engineering, and RFM analysis**.  
-The goal is to uncover behavioral patterns, identify high-value customers, and support customer segmentation strategies.
+The goal is to uncover behavioral patterns, identify high-value customers, and support customer segmentation strategies.    <br><br>
 
-&nbsp;
-**Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.  
-&nbsp;
+**Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.     <br><br>
 
 ---
 
@@ -26,8 +24,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 - Ensure `customer_id` exists and is character.  
 - Parse dates with `mdy → dmy → ymd` fallback; derive `txn_date, year, month, day, hour, weekday`.  
 - Derive `age_group` & `balance_group`.
-- Missingness summary computed to prioritize fixes and understand data reliability.
-&nbsp;
+- Missingness summary computed to prioritize fixes and understand data reliability.    <br><br>
 
 ---
 
