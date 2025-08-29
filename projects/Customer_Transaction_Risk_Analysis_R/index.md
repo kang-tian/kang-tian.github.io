@@ -2,9 +2,9 @@
 
 ## Keywords
 Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · KMeans Clustering · Silhouette Score · PCA Cluster Viz · Time Series · High-Value Prediction · Decision Tree · Random Forest 
-
+&nbsp;
 **Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-
-
+&nbsp;
 
 ----
 
@@ -14,9 +14,9 @@ This project explores and segments customer transactions using an **ANZ dataset*
 The workflow covers **data cleaning, transaction-level exploration, visualization, customer-level feature engineering, and RFM analysis**.  
 The goal is to uncover behavioral patterns, identify high-value customers, and support customer segmentation strategies.
 
-
+&nbsp;
 **Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.  
-
+&nbsp;
 
 ---
 
@@ -28,7 +28,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 - Parse dates with `mdy → dmy → ymd` fallback; derive `txn_date, year, month, day, hour, weekday`.  
 - Derive `age_group` & `balance_group`.
 - Missingness summary computed to prioritize fixes and understand data reliability.
-
+&nbsp;
 
 ---
 
@@ -57,6 +57,7 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture5.png" alt="Reviews per Page" width="70%"/>
 </p>
+&nbsp;
 
 **Merchant insights:**  
 - Pie: NA vs. valid merchants (share of total amount)  
@@ -69,6 +70,8 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture7.png" alt="Reviews per Page" width="70%"/>
 </p>
+&nbsp;
+
 ---
 
 ## 4) Customer-Level Feature Engineering
