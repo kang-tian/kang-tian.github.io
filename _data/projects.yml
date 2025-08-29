@@ -1,23 +1,28 @@
-database:
-  - name: "NoSQL: Fetch data from website and stored in MongoDB"
-    url: "/projects/NoSQL-MongoDB-Fetch-Web"
-    description: "Star schema, SCD2 history, incremental loads."
-  - name: "Service Appointments DB (Oracle + Access)"
-    url: "https://github.com/kang-tian/service-appointments"
-    description: "Triggers, views, history-tracked relationships."
-
-data_visualization:
-  - name: "Flight Delays Dashboard"
-    url: "https://github.com/kang-tian/flight-delays-viz"
-    description: "Interactive drilldowns; outlier highlighting."
-  - name: "COVID Trends in Canada"
+Data Analysis, Visualization, and Modeling (Machine Learning):
+  - name: "Customer Transaction Predictive Analysis & Segmentation (R) "
+    url: "/projects/Customer_Transaction_Risk_Analysis_R/"
+    description: "This project performs a comprehensive customer transaction and risk analysis, combining data preprocessing, 
+                  RFM segmentation, predictive modeling, and visualization to identify key customer behaviors and risk patterns."
+  - name: "NLP: Review Sentiment Analysis for BestBuy  (Python + MongoDB) "
+    url: "/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/"
+    description: "Conduct sentiment analysis utilizing Natural Language Processing (NLP)"
+  - name: "Term Deposit Marketing Campaign (Python) "
+    url: "/projects/term-deposit-marketing/"
+    description: "Analyze bank client data to predict term deposit subscription using Python and ML models"
+  - name: "Public Data analysis"
     url: "https://github.com/kang-tian/covid-trends"
     description: "Choropleths and small multiples."
 
-modeling_ml:
-  - name: "Term Deposit Marketing Campaign"
-    url: "/projects/term-deposit-marketing/"
-    description: "Analyze bank client data to predict term deposit subscription using Python and ML models"
-  - name: "NLP: Review Sentiment Analysis for BestBuy"
-    url: "/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/"
-    description: "Conduct sentiment analysis utilizing Natural Language Processing (NLP)"
+database:
+  - name: "SQL: Automobile Service Appointments System (Oracle + Access)"
+    url: "https://github.com/kang-tian/service-appointments"
+    description: "Triggers, views, history-tracked relationships."
+  - name: "NoSQL: Fetch data from website and stored in MongoDB"
+    url: "/projects/NoSQL-MongoDB-Fetch-Web"
+    description: "Star schema, SCD2 history, incremental loads."
+
+Programming:
+  - name: "Full-Stack Web Development: Website for visualizing financial data automatically"
+    url: "https://github.com/kang-tian/flight-delays-viz"
+    description: "html, css, javascript, php, sql"
+
