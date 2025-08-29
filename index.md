@@ -8,18 +8,18 @@ permalink: /
 
 Below are selected works grouped by focus area.
 
-## Database
+## Data Analysis, Visualization, and Modeling (Machine Learning)
 <ul>
-{% for p in site.data.projects.database %}
+{% for p in site.data.projects.data_analysis_ml %}
   <li>
     <a href="{{ p.url }}">{{ p.name }}</a> — {{ p.description }}
   </li>
 {% endfor %}
 </ul>
 
-## Data Analysis, Visualization, and Modeling
+## Database
 <ul>
-{% for p in site.data.projects.data_analysis_ml %}
+{% for p in site.data.projects.database %}
   <li>
     <a href="{{ p.url }}">{{ p.name }}</a> — {{ p.description }}
   </li>
