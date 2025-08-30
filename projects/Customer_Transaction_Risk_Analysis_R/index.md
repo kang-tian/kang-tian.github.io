@@ -3,9 +3,10 @@
 ## Keywords
 Transaction Analysis · Customer Segmentation · RFM · Feature Engineering · KMeans Clustering · Silhouette Score · PCA Cluster Viz · Time Series · High-Value Prediction · Decision Tree · Random Forest   <br><br>
 
-**Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-   <br><br>
+**Note**: This page provides an introduction to the project. For additional visualizations and the full source code, please visit the repository: https://github.com/kang-tian/Customer_Transaction_Analysis_Segmemtation_RFM_-R-
 
----  
+<p>&nbsp;</p>
+ 
 
 ## 1) Overview
 
@@ -13,9 +14,10 @@ This project explores and segments customer transactions using an **ANZ dataset*
 The workflow covers **data cleaning, transaction-level exploration, visualization, customer-level feature engineering, and RFM analysis**.  
 The goal is to uncover behavioral patterns, identify high-value customers, and support customer segmentation strategies.    <br><br>
 
-**Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.     <br><br>
+**Tech:** tidyverse, lubridate, caret, rpart, randomForest, pROC, cluster, factoextra, corrplot, ggpubr.  
 
----  
+
+<p>&nbsp;</p>
 
 ## 2) Data Ingestion & Setup
 
@@ -24,9 +26,10 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 - Ensure `customer_id` exists and is character.  
 - Parse dates with `mdy → dmy → ymd` fallback; derive `txn_date, year, month, day, hour, weekday`.  
 - Derive `age_group` & `balance_group`.
-- Missingness summary computed to prioritize fixes and understand data reliability.    <br><br>
+- Missingness summary computed to prioritize fixes and understand data reliability.
 
----  
+<p>&nbsp;</p>
+
 ## 3) Transaction-Level EDA
 
 **Descriptive stats** (count, total, mean/median, sd, min/max, quantiles) plus demographics:  
@@ -65,10 +68,10 @@ The goal is to uncover behavioral patterns, identify high-value customers, and s
 </p>
 <p align="center">
   <img src="/projects/Customer_Transaction_Risk_Analysis_R/images/Picture7.png" alt="Reviews per Page" width="70%"/>
-</p>   
+</p>
+
 <p>&nbsp;</p>
 
----
 
 ## 4) Customer-Level Feature Engineering
 
@@ -83,7 +86,7 @@ Aggregate to one row per `customer_id`:
 </p>
 <p>&nbsp;</p>
 
----
+
 
 ## 5) Clustering (Unsupervised Segmentation)
 
@@ -107,7 +110,7 @@ Aggregate to one row per `customer_id`:
 </p>   
 <p>&nbsp;</p>
 
----
+
 
 ## 6) RFM Analysis (Segmentation)
 
@@ -131,7 +134,7 @@ Aggregate to one row per `customer_id`:
 </p>
 <p>&nbsp;</p>
 
----
+
 
 
 ## 7) Predictive Modeling (High-Value Customers)
@@ -156,15 +159,15 @@ Aggregate to one row per `customer_id`:
 </p>
 <p>&nbsp;</p>
 
----
+
 
 ## 8) Salary Signal
 
 If salary-like transactions exist, detect the frequency (monthly or bi-weekly) compute:  
-- median_salary_txn and estimated_annual_salary = median_salary_txn * frequency.      <br><br>
+- median_salary_txn and estimated_annual_salary = median_salary_txn * frequency.      
 
+<p>&nbsp;</p>
 
----
 
 ## 9) Executive Takeaways 
 
