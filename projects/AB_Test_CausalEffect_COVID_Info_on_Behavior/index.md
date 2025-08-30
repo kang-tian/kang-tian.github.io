@@ -1,4 +1,4 @@
-# The Causal Effect of Receiving Information About the Sequelae of COVID-19 on People’s Preventive Behaviors (2021-2022)
+# The Causal Effect of Receiving Information About the Sequelae of COVID-19 on Preventive Behaviors (2021-2022)
 
 **Kang Tian, McGill University**  
 **ECON-664: Applied Cross-Sectional Methods**
