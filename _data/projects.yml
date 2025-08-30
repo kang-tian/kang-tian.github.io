@@ -11,9 +11,15 @@ data_analysis_ml:
   - name: "Term Deposit Marketing Campaign (Python)"
     url: "/projects/term-deposit-marketing/"
     description: "Analyze bank client data to predict term deposit subscription using Python and ML models"
+  - name: "A/B Test: Causal Effect of Information Exposure on Behavior"
+    url: "/projects/AB_Test_CausalEffect_COVID_Info_on_Behavior/"
+    description: " This project investigates how targeted information about COVID-19 sequelae influences individuals’ preventive behaviors using a randomized A/B experiment and Difference-in-Difference analysis."
   - name: "Public Data analysis"
     url: "https://github.com/kang-tian/covid-trends"
     description: "Choropleths and small multiples."
+
+
+    
 
 database:
   - name: "SQL: Automobile Service Appointments System (Oracle + Access)"
