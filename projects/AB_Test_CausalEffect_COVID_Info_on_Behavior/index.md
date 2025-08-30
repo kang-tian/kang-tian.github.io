@@ -1,7 +1,8 @@
-# The Causal Effect of Receiving Information About the Sequelae of COVID-19 on People’s Preventive Behaviors
+# The Causal Effect of Receiving Information About the Sequelae of COVID-19 on People’s Preventive Behaviors (2021-2022)
 
-**Kang Tian (ID: 261012087), The McGill University**  
+**Kang Tian, McGill University**  
 **ECON-664: Applied Cross-Sectional Methods**
+***Note***: This is a personal paper. The questionnaire design, data collection, and intervention implementation were carried out collaboratively with two group members, Mingda Li and Jingjie Guo. Due to ethical considerations, the original dataset will remain confidential.
 
 ---
 
@@ -27,22 +28,38 @@ We focus on health-related information because it directly affects individuals. 
 
 Randomized experiments can isolate the causal effect of targeted health information.
 
----
+<p> &nbsp;</p>
 
 ## 3. Experimental Design & Workflow
 
-**Participants:** 31 students in ECON 664.  
+**Participants:** 31 students in McGill University.  
 **Design:** Baseline survey → Randomization into treatment/control → Information intervention → Endline survey → DID analysis.
+### Workflow 
+<p align="center">
+  <img src="/projects/AB_Test_CausalEffect_COVID_Info_on_Behavior/images/Picture0.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p> &nbsp;</p>
 
-### Workflow and Questionnaire Design
-
+### Questionnaire Design
+<p align="center">
+  <img src="/projects/AB_Test_CausalEffect_COVID_Info_on_Behavior/images/Picture3.png" alt="Reviews per Page" width="70%"/>
+</p>
+<p> &nbsp;</p>
 **Baseline Survey:**
 - Collect personal characteristics: age, gender, nationality, prior COVID exposure.
 - Measure preventive behaviors (last 7 days) using 18 indicators (5-scale Likert).
 - Construct TPI, **Personal Preventive Index** (12 indicators), and **Public Preventive Index** (6 indicators).
 - Measure risk perception using a 5-scale index.
 
+<p align="center">
+  <img src="/projects/AB_Test_CausalEffect_COVID_Info_on_Behavior/images/Picture3.png" alt="Reviews per Page" width="70%"/>
+</p>
+
 **Randomization:**
+- The participants are divided into two groups: Control Group and Treatment Group
+<p align="center">
+  <img src="/projects/AB_Test_CausalEffect_COVID_Info_on_Behavior/images/Picture2.png" alt="Reviews per Page" width="70%"/>
+</p>
 - Stratified by baseline TPI to balance low, medium, high preventive behavior participants.
 
 **Intervention:**
