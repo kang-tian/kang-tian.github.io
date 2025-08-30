@@ -1,7 +1,7 @@
 # The Causal Effect of Receiving Information About the Sequelae of COVID-19 on Preventive Behaviors (2021-2022)
 
 **Kang Tian, McGill University**    <br>
-**ECON-664: Applied Cross-Sectional Methods**  <br>
+**Course Paper of ECON-664: Applied Cross-Sectional Methods**  <br>
 ***Note***: This is a personal paper. The questionnaire design, data collection, and intervention implementation were carried out collaboratively with two group members, Mingda Li and Jingjie Guo. Due to ethical considerations, the original dataset will remain confidential.   <br>
 **Link to Code:** https://github.com/kang-tian/AB_Test_CausalEffect_COVID_Info_on_Behavior
 
