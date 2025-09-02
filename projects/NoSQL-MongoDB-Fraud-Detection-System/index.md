@@ -112,7 +112,7 @@ The system uses a synthetic dataset with bank data from Kaggle and simulated dat
 ### 6. **Other Advanced Features**
 - **Redis**: Cache frequent queries using Redis to reduce repeated computation and speed up analytics queries like top customers or total spending.
 - **Machine Learning**: Interacting with Python. Build anomaly detection models (Isolation Forest, XGBoost) and store predictions in MongoDB.
-</p>
+
 <p> &nbsp;</p>
 
 ### 7. Conclusion
