@@ -13,6 +13,7 @@ permalink: /skills/
 **Machine Learning/Data Science:** Python(TensorFlow, PyTorch, scikit-learn, XGBoost,statsmodels), SageMaker Model Monitor  <br>
 
 **Cloud/Tools:** AWS (AWS Certificated AI Practitioner), Azure, Google Cloud
+<p> &nbsp; </p>
 
 
 # Certifications
