@@ -4,7 +4,7 @@
   /* Optimized light-based palette */
   --bg: #f8f9fa;          /* Very light gray (main background) */
   --text: #1b263b;        /* Deep navy-gray for body text */
-  --accent1: #415a77;     /* Muted steel blue (primary accent) */
+  --accent1: #415a77;     /* Muted steel blue (primary accent) */ 
   --accent2: #778da9;     /* Softer blue-gray (secondary accent) */
   --accent3: #6c757d;     /* Neutral gray for details/metadata */
   --card-bg: #ffffff;     /* White for cards/sections */
