@@ -2,15 +2,16 @@
   --max-width: 900px;
 
   /* Backgrounds */
-  --bg: #F0F4F8;        /* Light blue-gray for main background */
-  --card-bg: #FFFFFF;    /* White cards for sections */
-  --highlight: #E3EAF2; /* Light blue for hover/focus areas */
+  --bg: #F0F4F8;        /* Light blue-gray main background */
+  --card-bg: #F5F5F5;    /* Light grey cards */
+  --highlight: #E3EAF2; /* Hover/focus background */
 
   /* Text */
-  --text: #1B263B;       /* Dark navy for main text */
-  --accent1: #2563EB;    /* Vibrant blue - main accent (buttons, links, headings) */
-  --accent2: #778DA9;    /* Muted blue - secondary accent (hover, borders, subheadings) */
-  --accent3: #415A77;    /* Medium steel blue - tertiary accent (details, small text) */
+  --text: #1B263B;        /* Dark navy text */
+  --accent1: #01497c;     /* Header & main headings - dark blue */
+  --accent2: #2c7da0;     /* Secondary headings / hover links */
+  --accent3: #415A77;     /* Small text / details */
+  --accent4: #468fa;      /* Optional tertiary accent */
 }
 
 /* Global Reset */
