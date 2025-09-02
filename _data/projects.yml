@@ -1,22 +1,23 @@
 data_analysis_ml:
   - name: "Customer Transaction Predictive Analysis & Segmentation (R)"
     url: "/projects/Customer_Transaction_Risk_Analysis_R/"
-    description: |
-      This project performs a comprehensive customer transaction and risk analysis, 
-      combining data preprocessing, RFM segmentation, predictive modeling, and visualization 
-      to identify key customer behaviors and risk patterns.
+    description: "Comprehensive customer transaction and risk analysis using RFM segmentation and predictive modeling."
+    keywords: ["R", "Segmentation", "Risk Analysis", "Predictive Modeling"]
+    
   - name: "NLP: Review Sentiment Analysis for BestBuy (Python + MongoDB)"
     url: "/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/"
-    description: "Conduct sentiment analysis utilizing Natural Language Processing (NLP)"
+    description: "Sentiment analysis with NLP and MongoDB storage."
+    keywords: ["Python", "NLP", "MongoDB", "Sentiment Analysis"]
+
   - name: "Term Deposit Marketing Campaign (Python)"
     url: "/projects/term-deposit-marketing/"
-    description: "Analyze bank client data to predict term deposit subscription using Python and ML models"
+    description: "Bank data analysis to predict term deposit subscription."
+    keywords: ["Python", "ML", "Marketing", "Classification"]
+    
   - name: "A/B Test: Causal Effect of Information Exposure on Behavior"
     url: "/projects/AB_Test_CausalEffect_COVID_Info_on_Behavior/"
     description: " This project investigates how targeted information about COVID-19 sequelae influences individuals’ preventive behaviors using a randomized A/B experiment and Difference-in-Difference analysis."
-  - name: "Public Data analysis"
-    url: "https://github.com/kang-tian/covid-trends"
-    description: "Choropleths and small multiples."
+
 
 
     
