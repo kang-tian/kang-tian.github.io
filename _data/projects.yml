@@ -1,5 +1,5 @@
 data_analysis_ml:
-  - name: "Customer Transaction Predictive Analysis & Segmentation (R)"
+  - name: "Customer Transaction Predictive Analysis & Segmentation (R)" 
     url: "/projects/Customer_Transaction_Risk_Analysis_R/"
     description: "Comprehensive customer transaction and risk analysis using RFM segmentation and predictive modeling."
     keywords: ["R", "Segmentation", "Risk Analysis", "Predictive Modeling"]
