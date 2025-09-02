@@ -8,7 +8,7 @@ permalink: /skills/
 
 **Database & ETL tools:** SQL (MS SQL/Oracle/MySQL/PostgreSQL), NoSQL (MongoDB) , Fabric Data Warehouse <br>
 
-**Data Analysis & Visualization:** Python, R, SAS(advanced certificate), Power BI (Power Automate), Tableau, Excel <br>
+**Data Analysis & Visualization:** Python, R, SAS(*advanced certificate*), Power BI (Power Automate), Tableau, Excel <br>
 
 **Machine Learning/Data Science:** Python(TensorFlow, PyTorch, scikit-learn, XGBoost,statsmodels), SageMaker Model Monitor  <br>
 
@@ -16,10 +16,6 @@ permalink: /skills/
 
 
 # Certifications
-# 📜 Certifications
-
-# 📜 Certifications
-
 ### 1. AWS Certified AI Practitioner  
 - **Issued by:** Amazon Web Services (AWS)  
 - **Date:** Aug 2025  
@@ -78,5 +74,7 @@ permalink: /skills/
 - **Issued by:** Coursera  
 - **Date:** Dec 2021  
 - **Credential ID:** 3SB74K49B2CM  
-- **Skills:** Python visualization (Matplotlib, Seaborn), EDA, Statistical analysis   
-<p> &nbsp </p>
+- **Skills:** Python visualization (Matplotlib, Seaborn), EDA, Statistical analysis
+   
+
+
