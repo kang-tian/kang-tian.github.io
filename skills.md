@@ -3,7 +3,7 @@ layout: default
 title: Skills
 permalink: /skills/
 ---
-
+ 
 # Skills
 
 **Database & ETL tools:** SQL (MS SQL/Oracle/MySQL/PostgreSQL), NoSQL (MongoDB) , Fabric Data Warehouse <br>
