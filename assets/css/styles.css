@@ -1,14 +1,14 @@
 :root {
   --max-width: 900px;
 
-  /* Optimized Dark-Professional Palette */
-  --bg: #1b263b;        /* Dark navy background */
-  --text: #e0e1dd;      /* Light gray text for readability */
-  --accent1: #415a77;   /* Medium blue-gray (primary accent) */
-  --accent2: #778da9;   /* Soft muted blue (secondary accent) */
-  --accent3: #e0e1dd;   /* Light tone for highlights/details */
-  --card-bg: #415a77;   /* Card background */
-  --highlight: #778da9; /* Subtle highlight for hover/focus */
+  /* Optimized light-based palette */
+  --bg: #f8f9fa;          /* Very light gray (main background) */
+  --text: #1b263b;        /* Deep navy-gray for body text */
+  --accent1: #415a77;     /* Muted steel blue (primary accent) */
+  --accent2: #778da9;     /* Softer blue-gray (secondary accent) */
+  --accent3: #6c757d;     /* Neutral gray for details/metadata */
+  --card-bg: #ffffff;     /* White for cards/sections */
+  --highlight: #e0e1dd;   /* Gentle off-white highlight */
 }
 
 * {
