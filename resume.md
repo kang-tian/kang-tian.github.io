@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Resume"
 permalink: /resume/
 description: "Resume of Kang Tian — Data & Business Analyst with 6 years of experience in data analysis, modeling, visualization, and reporting."
