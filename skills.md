@@ -35,7 +35,7 @@ permalink: /skills/
 - **Issued by:** SAS  
 - **Date:** Sep 2023  
 - **Skills:** Base SAS fundamentals, Data manipulation, Import/export of raw data  
-
+ 
 ---
 
 ### 4. Data Analysis with Python  
