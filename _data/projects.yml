@@ -30,6 +30,6 @@ database:
     description: "A fraud detection system built on Node.js, leveraging MongoDB for scalable data storage and analytics, and Redis for high-speed caching—providing efficient real-time detection and prevention of fraudulent activities."
 
 programming:
-  - name: "Full-Stack Web Development: Website for visualizing financial data automatically"
-    url: "https://github.com/kang-tian/flight-delays-viz"
-    description: "html, css, javascript, php, sql"
+  - name: "Full-Stack Web Development: Website for visualizing financial data automatically (html, css, javascript, php, pdo,sql) "
+    url: "/projects/Full-Stack-Interactive-Web-Application-for-Finance-Visualization/"
+    description: "A full-stack web application that empowers users to track, categorize, and visualize their income and spending automatically through interactive dashboards.  "
