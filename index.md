@@ -8,29 +8,50 @@ permalink: /
 
 Here are some of my key projects, organized by focus area. Click a title to dive into the details.
 
+---
+
 ## 📊 Data Analysis, Visualization, and Modeling (Machine Learning)
-<ul>
+
+<div class="project-grid">
 {% for p in site.data.projects.data_analysis_ml %}
-  <li>
-    <a href="{{ p.url }}">{{ p.name }}</a> — {{ p.description }}
-  </li>
+<div class="project-card">
+  <h3>🔹 <a href="{{ p.url }}">{{ p.name }}</a></h3>
+  <p>{{ p.description }}</p>
+  {% if p.keywords %}
+  <small>Keywords: {{ p.keywords | join: ', ' }}</small>
+  {% endif %}
+</div>
 {% endfor %}
-</ul>
+</div>
+
+---
 
 ## 🗄 Database
-<ul>
+
+<div class="project-grid">
 {% for p in site.data.projects.database %}
-  <li>
-    <a href="{{ p.url }}">{{ p.name }}</a> — {{ p.description }}
-  </li>
+<div class="project-card">
+  <h3>💾 <a href="{{ p.url }}">{{ p.name }}</a></h3>
+  <p>{{ p.description }}</p>
+  {% if p.keywords %}
+  <small>Keywords: {{ p.keywords | join: ', ' }}</small>
+  {% endif %}
+</div>
 {% endfor %}
-</ul>
+</div>
+
+---
 
 ## 💻 Programming
-<ul>
+
+<div class="project-grid">
 {% for p in site.data.projects.programming %}
-  <li>
-    <a href="{{ p.url }}">{{ p.name }}</a> — {{ p.description }}
-  </li>
+<div class="project-card">
+  <h3>⚙️ <a href="{{ p.url }}">{{ p.name }}</a></h3>
+  <p>{{ p.description }}</p>
+  {% if p.keywords %}
+  <small>Keywords: {{ p.keywords | join: ', ' }}</small>
+  {% endif %}
+</div>
 {% endfor %}
-</ul>
+</div>
