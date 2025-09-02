@@ -16,9 +16,9 @@ Here are some of my key projects, organized by focus area. Click a title to dive
 {% for p in site.data.projects.data_analysis_ml %}
 <div class="project-card">
   <h3>🔹 <a href="{{ p.url }}">{{ p.name }}</a></h3>
-  <p>{{ p.description }}</p>
+  <p><strong>Description:</strong> {{ p.description }}</p>
   {% if p.keywords %}
-  <small>Keywords: {{ p.keywords | join: ', ' }}</small>
+  <p><strong>Keywords:</strong> {{ p.keywords | join: ', ' }}</p>
   {% endif %}
 </div>
 {% endfor %}
@@ -32,9 +32,9 @@ Here are some of my key projects, organized by focus area. Click a title to dive
 {% for p in site.data.projects.database %}
 <div class="project-card">
   <h3>💾 <a href="{{ p.url }}">{{ p.name }}</a></h3>
-  <p>{{ p.description }}</p>
+  <p><strong>Description:</strong> {{ p.description }}</p>
   {% if p.keywords %}
-  <small>Keywords: {{ p.keywords | join: ', ' }}</small>
+  <p><strong>Keywords:</strong> {{ p.keywords | join: ', ' }}</p>
   {% endif %}
 </div>
 {% endfor %}
@@ -48,9 +48,9 @@ Here are some of my key projects, organized by focus area. Click a title to dive
 {% for p in site.data.projects.programming %}
 <div class="project-card">
   <h3>⚙️ <a href="{{ p.url }}">{{ p.name }}</a></h3>
-  <p>{{ p.description }}</p>
+  <p><strong>Description:</strong> {{ p.description }}</p>
   {% if p.keywords %}
-  <small>Keywords: {{ p.keywords | join: ', ' }}</small>
+  <p><strong>Keywords:</strong> {{ p.keywords | join: ', ' }}</p>
   {% endif %}
 </div>
 {% endfor %}
