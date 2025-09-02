@@ -1,10 +1,10 @@
 # Full-Stack Web Development 
 ## VisualBudget: Interactive Web Application for Income & Spending Visualization Automatically
 
-**Note:** This is a group project completed with two team members, **Jihee Seo** and **Yuanyuan Xi**.  
-My responsibilities included **idea generation (project design)** and **front-end development** (HTML pages, CSS, and part of JavaScript).  
-
-For more details, please check the project repository on [GitHub](https://github.com/kang-tian/Full-Stack-Web-Development-Website-for-visualizing-financial-data-automatically).
+**Note:** 
+- This is a group project completed with two team members, **Jihee Seo** and **Yuanyuan Xi**.  
+- My responsibilities included **idea generation (project design)** and **front-end development** (HTML pages, CSS, and part of JavaScript).
+- For more details, please check the project repository on [GitHub](https://github.com/kang-tian/Full-Stack-Web-Development-Website-for-visualizing-financial-data-automatically).
 
 <p> &nbsp;</p>  
 
@@ -13,11 +13,13 @@ For more details, please check the project repository on [GitHub](https://github
 
 **Project Description:**  
 VisualBudget is a web application that allows users to monitor and visualize their income and spending by category. Users can create an account to enter their income and spending data manually. The application automatically generates dashboards displaying financial situations using pie charts and bar charts, broken down by category for both income and spending.
+<p> &nbsp;</p>  
 
 **Purpose:**  
 - Help users gain clear insights into their financial habits.  
 - Encourage budgeting, investment tracking, and long-term financial planning.
 - Facilitate the Visualization of the income and spending.
+<p> &nbsp;</p>  
 
 **Technical Implementation (Proposed):**  
 - **Frontend:** HTML, CSS, JavaScript  
