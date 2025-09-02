@@ -1,13 +1,20 @@
 ---
-layout: default
-title: Resume
+layout: page
+title: "Resume"
 permalink: /resume/
+description: "Resume of Kang Tian — Data & Business Analyst with 6 years of experience in data analysis, modeling, visualization, and reporting."
+author: "Kang Tian"
+categories: [resume, portfolio]
 ---
 
 # Resume
-# Kang Tian
+📞 (438) 941-7228  
+📧 kangt805@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/kangtianecon)  
 
-📞 (438) 941-7228 | 📧 kangt805@gmail.com | [LinkedIn](https://www.linkedin.com/in/kangtianecon)
+
+
+## Resume
 
 <p> &nbsp; </p>
 
