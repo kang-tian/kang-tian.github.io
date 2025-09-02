@@ -13,9 +13,6 @@ categories: [resume, portfolio]
 [LinkedIn](https://www.linkedin.com/in/kangtianecon)  
 
 
-
-## Resume
-
 <p> &nbsp; </p>
 
 ## 📝 Summary
