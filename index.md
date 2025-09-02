@@ -7,8 +7,9 @@ permalink: /
 # 📁 My Projects
 
 Here are some of my key projects, organized by focus area. Click a title to dive into the details.
+<p> &nbsp; </p>
 
----
+
 
 ## 📊 Data Analysis, Visualization, and Modeling (Machine Learning)
 
@@ -23,8 +24,9 @@ Here are some of my key projects, organized by focus area. Click a title to dive
 </div>
 {% endfor %}
 </div>
+<p> &nbsp; </p>
 
----
+
 
 ## 🗄 Database
 
@@ -39,8 +41,9 @@ Here are some of my key projects, organized by focus area. Click a title to dive
 </div>
 {% endfor %}
 </div>
+<p> &nbsp; </p>
 
----
+
 
 ## 💻 Programming
 
@@ -55,3 +58,4 @@ Here are some of my key projects, organized by focus area. Click a title to dive
 </div>
 {% endfor %}
 </div>
+<p> &nbsp; </p>
