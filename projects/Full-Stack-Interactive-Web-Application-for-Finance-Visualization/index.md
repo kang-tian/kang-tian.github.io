@@ -17,7 +17,7 @@ VisualBudget is a web application that allows users to monitor and visualize the
 **Purpose:**  
 - Help users gain clear insights into their financial habits.  
 - Encourage budgeting, investment tracking, and long-term financial planning.
-- Facilitate the Visualization of the income and spending
+- Facilitate the Visualization of the income and spending.
 
 **Technical Implementation (Proposed):**  
 - **Frontend:** HTML, CSS, JavaScript  
@@ -97,13 +97,6 @@ VisualBudget is a web application that allows users to monitor and visualize the
 
 
 ## 3. Data Flow
-The application follows a structured data flow:
-1. Users register or log in.  
-2. Financial data is entered via Data Input page.  
-3. Data stored in MySQL database.  
-4. Users can view, edit, or delete past transactions in History page.  
-5. Dashboard generates visual summaries (charts) based on stored data.  
-6. Application validates inputs and provides user feedback at each stage.
 <p align="center">
   <img src="/projects/Full-Stack-Interactive-Web-Application-for-Finance-Visualization/images/Picture8.png" alt="Reviews per Page" width="70%"/>
 </p>
