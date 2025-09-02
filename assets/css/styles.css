@@ -40,7 +40,7 @@ a:hover {
 
 /* Header & Navigation */
 header.site-header {
-  background-color: var(--accent3);
+  background-color: var(--accent1);
   padding: 1rem 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -57,7 +57,7 @@ header.site-header {
 .nav .brand {
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--card-bg);
+  color: var(--card-bg); /* keep text white/light */
 }
 
 .nav .links a {
@@ -135,7 +135,7 @@ button:hover, .btn:hover {
 }
 
 .project-card {
-  background-color: var(--card-bg);
+  background-color: #F5F5F5; /* light grey instead of pure white */
   border-radius: 12px;
   padding: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
@@ -143,7 +143,7 @@ button:hover, .btn:hover {
 }
 
 .project-card:hover {
-  background-color: var(--highlight);
+  background-color: var(--highlight); /* keep subtle hover effect */
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.12);
 }
