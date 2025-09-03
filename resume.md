@@ -35,7 +35,7 @@ Data-driven analyst with **6 years of experience** in **data and business analys
 
 ## 🎓 Education
 - **Master of Arts in Economics** – McGill University, 2022     GPA: 3.57
-- **Computer Programming Diploma** – Algonquin College *(In Progress)*  CPA: 3.78 
+- **Computer Programming Diploma** – Algonquin College *(In Progress)*  CPA: 3.76 
 
 
 <p> &nbsp; </p>
