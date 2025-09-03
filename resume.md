@@ -9,7 +9,7 @@ categories: [resume, portfolio]
 
 # Resume
 📞 (438) 941-7228  
-📧 kangt805@gmail.com (mailto:kangt805@gmail.com) 
+📧 [kangt805@gmail.com](mailto:kangt805@gmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/kangtianecon)  
 💻 [GitHub](https://github.com/kang-tian)  
 
