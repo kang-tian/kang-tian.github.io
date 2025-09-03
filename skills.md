@@ -6,13 +6,12 @@ permalink: /skills/
  
 # Skills
 
-**Database & ETL tools:** SQL (MS SQL/Oracle/MySQL/PostgreSQL), NoSQL (MongoDB) , Fabric Data Warehouse <br>
-
-**Data Analysis & Visualization:** Python, R, SAS(*advanced certificate*), Power BI (Power Automate), Tableau, Excel <br>
-
-**Machine Learning/Data Science:** Python(TensorFlow, PyTorch, scikit-learn, XGBoost,statsmodels), SageMaker Model Monitor  <br>
-
-**Cloud/Tools:** AWS (AWS Certificated AI Practitioner), Azure, Google Cloud
+- **Data Analysis & Visualization:** Python, R, SAS (Advanced Certificated), Power BI (Power Automate), Tableau, Looker, Excel (Macro, VBA) 
+- **ETL & Database Management:** SQL (MS SQL, Oracle, MySQL, MariaDB PostgreSQL), NoSQL (MongoDB), Fabric Data Warehouse, ETL tools 
+- **Machine Learning / AI:** Python (TensorFlow, scikit-learn,PyTorch, statsmodels, ...), AWS SageMaker, DataRobot
+- **Web & Full-Stack Development:** HTML, CSS, Java, JavaScript/Node.js., PHP, PDO, React, VS Code, Git
+- **Cloud Platforms:** AWS (AWS Certified AI Practitioner), Microsoft Azure, Google Cloud
+- **Languages:** English, French 
 <p> &nbsp; </p>
 
 
@@ -23,21 +22,21 @@ permalink: /skills/
 - **Credential ID:** 848403a2-3d03-4163-9c39-4dba29cf7c76  
 - **Skills:** AI/ML fundamentals, Responsible AI, AI integration with AWS  
 
----
+<p> &nbsp; </p>
 
 ### 2. SAS Certified Professional: Advanced Programming Using SAS 9.4  
 - **Issued by:** SAS  
 - **Date:** Oct 2023  
 - **Skills:** Advanced SAS programming, Data optimization, Efficient reusable code  
 
----
+<p> &nbsp; </p>
 
 ### 3. SAS Certified Specialist: Base Programming Using SAS 9.4  
 - **Issued by:** SAS  
 - **Date:** Sep 2023  
 - **Skills:** Base SAS fundamentals, Data manipulation, Import/export of raw data  
  
----
+<p> &nbsp; </p>
 
 ### 4. Data Analysis with Python  
 - **Issued by:** Coursera  
@@ -45,7 +44,7 @@ permalink: /skills/
 - **Credential ID:** YN8NKTHWYRY7  
 - **Skills:** Model development & evaluation, Python for data analysis, Visualization  
 
----
+<p> &nbsp; </p>
 
 ### 5. Data Warehousing and Business Intelligence  
 - **Issued by:** Coursera  
@@ -53,7 +52,7 @@ permalink: /skills/
 - **Credential ID:** ZQM49SXTY933  
 - **Skills:** Data warehouse design, ETL pipelines, BI dashboards  
 
----
+<p> &nbsp; </p>
 
 ### 6. The Nature of Data and Relational Database Design  
 - **Issued by:** Coursera  
@@ -61,7 +60,7 @@ permalink: /skills/
 - **Credential ID:** 5TVPQLYWWQTA  
 - **Skills:** Relational database design, ER modeling, SQL querying  
 
----
+<p> &nbsp; </p>
 
 ### 7. Customer Analytics  
 - **Issued by:** Coursera  
@@ -69,7 +68,7 @@ permalink: /skills/
 - **Credential ID:** DH5YNW2H58SC  
 - **Skills:** Customer segmentation, Predictive analytics, Data-driven marketing  
 
----
+<p> &nbsp; </p>
 
 ### 8. Understanding and Visualizing Data with Python  
 - **Issued by:** Coursera  
