@@ -7,7 +7,7 @@ data_analysis_ml:
   - name: "NLP: Review Sentiment Analysis for BestBuy (Python + MongoDB)"
     url: "/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/"
     description: "Sentiment analysis with NLP and MongoDB storage."
-    keywords: ["Python", "NLP", "MongoDB", "Sentiment Analysis"]
+    keywords: ["Python", "NLP", "MongoDB", "Sentiment Analysis", ]
 
   - name: "Term Deposit Marketing Campaign (Python)"
     url: "/projects/term-deposit-marketing/"
@@ -17,21 +17,23 @@ data_analysis_ml:
   - name: "A/B Test: Causal Effect of Information Exposure on Behavior"
     url: "/projects/AB_Test_CausalEffect_COVID_Info_on_Behavior/"
     description: "This project investigates how targeted information about COVID-19 sequelae influences individuals’ preventive behaviors using a randomized A/B experiment and Difference-in-Difference analysis."
-    keywords: ["A/B Test", "Causal Effect", "COVID-19", "Behavioral Analysis"]
+    keywords: ["A/B Test", "Causal Effect", "STATA", "Modeling", "Hypothesis Testing", "Behavioral Analysis"]
 
 database:
-  - name: "SQL: Automobile Service Appointments System (Oracle + Access)"
-    url: "https://github.com/kang-tian/service-appointments"
-    description: "Triggers, views, history-tracked relationships."
-    keywords: ["SQL", "Oracle", "Access", "Triggers"]
+  - name: "SQL: Automobile Service Appointments Management System (Oracle PL/SQL + MS Access)"
+    url: "/projects/Automobile-Service-Appointment-Management-System/"
+    description: "Developed a relational database system using Microsoft Access and Oracle SQL to manage customer, vehicle, and service appointment workflows with 
+    full history tracking, multi-value associations, and automated triggers, procedures, and packages for data integrity and efficient operations."
+    keywords: ["Oracle", "PL/SQL", " MS Access", "Triggers", "Stored Procedures", "Functions", "Packages"]
 
   - name: "NoSQL: Real-Time Fraud Detection & Analysis System with MongoDB (Node.js)"
     url: "/projects/NoSQL-MongoDB-Fraud-Detection-System/"
-    description: "A fraud detection system built on Node.js, leveraging MongoDB for scalable data storage and analytics, and Redis for high-speed caching—providing efficient real-time detection and prevention of fraudulent activities."
-    keywords: ["MongoDB", "Node.js", "NoSQL", "Fraud Detection"]
+    description: "A fraud detection system built on Node.js, leveraging MongoDB for scalable data storage and analytics, and Redis for high-speed caching—providing 
+    efficient real-time detection and prevention of fraudulent activities."
+    keywords: ["MongoDB", "Node.js", "JavaScript", "Redis", "NoSQL", "Fraud Detection"]
 
 programming:
   - name: "Full-Stack Web Development: Website for visualizing financial data automatically"
     url: "/projects/Full-Stack-Interactive-Web-Application-for-Finance-Visualization/"
     description: "A full-stack web application that empowers users to track, categorize, and visualize their income and spending automatically through interactive dashboards."
-    keywords: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Full-Stack"]
+    keywords: ["HTML", "CSS", "JavaScript", "PHP", "PDO", "SQL(MarioDB)", "Full-Stack"]
