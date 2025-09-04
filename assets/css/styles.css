@@ -34,7 +34,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a: {
   color: var(--accent2);
   text-decoration: underline;
 }
@@ -74,13 +74,13 @@ header.site-header {
 }
 
 .nav .links a:hover {
-  color: var(--accent1);
+  color: #ccc;
 }
 
 /* Main Container */
 main.container {
   max-width: var(--max-width);
-  margin: 2rem auto;
+  margin: 5rem auto 2rem auto; /* add extra top margin */
   padding: 0 1rem;
 }
 
@@ -165,4 +165,27 @@ button:hover, .btn:hover {
   margin-right: 0.5rem;
   font-size: 1.1rem;
   vertical-align: middle;
+}
+
+.project-card a {
+  display: block;
+  color: inherit;        /* keep text colors */
+  text-decoration: none; /* remove underline */
+  height: 100%;
+}
+
+.project-card a:hover {
+  text-decoration: none;
+}
+
+header.site-header {
+  background-color: var(--accent1);
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  position: fixed;   /* makes it sticky */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;     /* stays above content */
 }
