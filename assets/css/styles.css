@@ -80,8 +80,8 @@ header.site-header {
 /* Main Container */
 main.container {
   max-width: var(--max-width);
-  margin: 5rem auto 2rem auto; /* add extra top margin */
-  padding: 0 1rem;
+  margin: 2rem auto;
+  padding: 5rem 1rem 0 1rem; /* add top padding instead of margin */
 }
 
 /* Headings */
@@ -188,4 +188,10 @@ header.site-header {
   left: 0;
   width: 100%;
   z-index: 1000;     /* stays above content */
+}
+
+@media (max-width: 600px) {
+  main.container {
+    padding-top: 6rem; /* a bit more space on small screens */
+  }
 }
