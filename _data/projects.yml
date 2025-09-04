@@ -1,4 +1,11 @@
 data_analysis_ml:
+
+  - name: "Comprehensive Analysis & Visualization of Postsecondary Education in Ontario (ESDC Microgrant Award)"
+    url: "/projects/Visualization-of-Postsecondary-Education-in-Ontario/"
+    description: "Awarded a $1,500 ESDC microgrant, this Power BI project delivers interactive dashboards analyzing student enrollment, graduation, 
+    and tuition trends in Ontario (2017–2024), with insights on demographics, institutions, and international students."
+    keywords: ["Power BI", "Data Visualization", "Statistics Canada"]
+
   - name: "Customer Transaction Predictive Analysis & Segmentation (R)"
     url: "/projects/Customer_Transaction_Risk_Analysis_R/"
     description: "Comprehensive customer transaction and risk analysis using RFM segmentation and predictive modeling."
