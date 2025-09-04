@@ -29,7 +29,7 @@ This project simulates a banking environment and demonstrates how to detect frau
 
 ## **Methodology**
 
-### 1. **Database Setup**
+### **1. Database Setup**
 - MongoDB installed locally or via MongoDB Atlas.
 - Database: `BankDataset`
 - Collection: `Bank`
@@ -53,7 +53,7 @@ The system uses a synthetic dataset with bank data from Kaggle and simulated dat
 <p> &nbsp;</p>
 
 
-### 3. **Data Analysis &  **Data Reporting**
+### 3. **Data Analysis &  Data Reporting**
 #### 1. Transaction Summary
 - Uses the `$group` aggregation stage to compute:
   - **Total transaction amount** (`$sum: "$amt"`)
