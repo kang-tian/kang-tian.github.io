@@ -3,12 +3,19 @@
 This Power BI project presents an interactive, data-driven visualization of student enrollment, graduation, and tuition trends in Ontario between 2017 and 2024.
 Drawing from Statistics Canada’s datasets, the dashboards reveal key patterns and challenges across multiple dimensions.
 
-This is a **group project** developed by Kang Tian, Sandy Lin, Bella Liu, Xiaole Wang, and Maoquan Jiao. We are all passionate about data—beyond conducting analyses,
-we also organize forum sessions to present and discuss our findings with the public. Our goal is to inspire more people to explore open data and gain meaningful
+<p> &nbsp; </p>
+
+
+This is a **group project** developed by Kang Tian, Sandy Lin, Bella Liu, Xiaole Wang, and Maoquan Jiao. We are all passionate about data—beyond conducting analyses, we also organize forum sessions to present and discuss our findings with the public. Our goal is to inspire more people to explore open data and gain meaningful
 insights.
+
+<p> &nbsp; </p>
+
 
 Looking ahead, our **next project** will focus on analyzing Canada’s economic indicators to help improve public understanding and literacy in economic data.
 
+
+<p> &nbsp; </p>
 
 
 ### Visualization & Key insights
@@ -68,7 +75,7 @@ Looking ahead, our **next project** will focus on analyzing Canada’s economic 
 <p> &nbsp; </p> 
 
 #### Data sourse: 
-Source:
+
 Canadian and international tuition fees by level of study (constant dollars)
 https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710022601
 <p> &nbsp; </p> 
