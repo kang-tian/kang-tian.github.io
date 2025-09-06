@@ -17,7 +17,7 @@ categories: [resume, portfolio]
 
 ## 📝 Summary
 
-Data-driven analyst with **Extensive experience** in **data and business analysis, modeling, visualization, reporting, and data engineering** across industries including financial services, marketing, insurance, automobile, travel, and non-profit organizations. Skilled at translating complex data into actionable insights using **programming languages *(Python, R, SAS, JavaScript/Node.js)*, databases *(SQL, NoSQL)*, and visualization tools *(Power BI, Tableau, Excel)***. Holding a **master degree in Economics** and currently enhancing **full-stack development and cloud computing** skills through a Computer Programming diploma to bridge the gap between data analysis and scalable technical solutions.
+Data-driven analyst with **extensive experience** in **data and business analysis, modeling, visualization, reporting, and data engineering** across industries including financial services, marketing, insurance, automobile, travel, and non-profit organizations. Skilled at translating complex data into actionable insights using **programming languages *(Python, R, SAS, JavaScript/Node.js)*, databases *(SQL, NoSQL)*, and visualization tools *(Power BI, Tableau, Excel)***. Holding a **master degree in Economics** and currently enhancing **full-stack development and cloud computing** skills through a Computer Programming diploma to bridge the gap between data analysis and scalable technical solutions.
 
 <p> &nbsp; </p>
 
