@@ -43,4 +43,4 @@ programming:
   - name: "Full-Stack Web Development: Website for visualizing financial data automatically"
     url: "/projects/Full-Stack-Interactive-Web-Application-for-Finance-Visualization/"
     description: "A full-stack web application that empowers users to track, categorize, and visualize their income and spending automatically through interactive dashboards."
-    keywords: ["HTML", "CSS", "JavaScript", "PHP", "PDO", "SQL(MarioDB)", "Full-Stack"]
+    keywords: ["HTML", "CSS", "JavaScript", "PHP", "PDO", "SQL(MariaDB)", "Full-Stack"]
