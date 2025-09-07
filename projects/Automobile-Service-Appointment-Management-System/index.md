@@ -2,10 +2,16 @@
 
 ## Overview  
 The **Automobile Service Appointment Management System** is a database-driven application designed to streamline vehicle service scheduling and management. 
-The project integrates **Microsoft Access** as the front-end interface and **Oracle SQL** as the back-end database, providing both customers and mechanics 
-with a user-friendly and reliable platform for managing appointments, vehicle details, and service history.  
 
 <p> &nbsp; </p>
+
+The project integrates **Microsoft Access** as the front-end interface and **Oracle SQL** as the back-end database, providing both customers and mechanics with a user-friendly and reliable platform for managing appointments, vehicle details, and service history.  
+
+<p> &nbsp; </p>
+
+For more details, please check the project repository on [GitHub](https://github.com/kang-tian/Automobile-Service-Appointment-Management-System).
+
+<p> &nbsp;</p>  
 
 ## Skills & Technologies  
 - **Microsoft Access:** Forms, reports, VBA programming, user interface design.  
