@@ -5,9 +5,11 @@ title: "NLP Project: Review Sentiment Analysis for BestBuy"
 # NLP Project: Review Sentiment Analysis for BestBuy
 
 Customer reviews provide **valuable insights** into a company’s products and services. This project performs a **comprehensive sentiment analysis** on *BestBuy* reviews collected from **Trustpilot**, integrating **data collection, storage, cleaning, sentiment modeling, aspect-based analysis, topic modeling, and sentiment trend visualization**. The goal is to extract actionable insights for business improvement.
+**Link to Code:** [GitHub](https://github.com/kang-tian/NLP-Reviews-Sentiment-Analysis-for-BestBuy)
+
+<p> &nbsp;</p>  
 
 
----
 
 ## Project Workflow and Importance
 
@@ -23,7 +25,7 @@ Understanding customer sentiment is crucial for **improving service quality and 
 
 This workflow ensures a **comprehensive understanding of customer feedback**, helping businesses identify key issues and make **data-driven decisions**.
 
----
+<p> &nbsp;</p>  
 
 ## 1️⃣ Data Collection
 
@@ -34,7 +36,7 @@ Reviews were collected from Trustpilot with a loop handling multiple pages. Each
   <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture1.png" alt="Reviews per Page" width="70%"/>
 </p>
 
----
+<p> &nbsp;</p>  
 
 ## 2️⃣ Data Storage and Access
 
@@ -45,7 +47,7 @@ All reviews are stored in **MongoDB**, which enables easy querying and analysis 
   <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture2.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
----
+<p> &nbsp;</p>  
 
 ## 3️⃣ Data Cleaning
 
@@ -58,7 +60,7 @@ Text preprocessing prepares the reviews for accurate sentiment analysis:
 
 This ensures the sentiment analysis focuses on the **actual content of customer feedback**.
 
----
+<p> &nbsp;</p>  
 
 ## 4️⃣ Sentiment Analysis
 
@@ -70,8 +72,8 @@ Three models were used:
 
 **Performance of Multilingual BERT:**  
 
-| Metric      | Score  |
-|------------|--------|
+| Metric         | Score  |
+|------------    |--------|
 | **Accuracy**   | 92%    |
 | **Precision**  | 0.62   |
 | **Recall**     | 0.53   |
@@ -88,7 +90,7 @@ Three models were used:
   <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture3.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
----
+<p> &nbsp;</p>  
 
 ## 5️⃣ Aspect-Based Sentiment Analysis (ABSA)
 
@@ -100,7 +102,7 @@ ABSA focuses on **key service aspects** such as **delivery, price, quality, and 
 </p>
 
 
----
+<p> &nbsp;</p>  
 
 ## 6️⃣ Topic Modeling & Clustering
 
@@ -111,7 +113,9 @@ Topic modeling uncovers **hidden themes** in customer reviews and helps identify
   <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture6.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
----
+
+<p> &nbsp;</p>  
+
 
 ## 7️⃣ Sentiment Trends Over Time
 
@@ -122,7 +126,10 @@ Analyzing sentiment trends provides insights into **changes in customer percepti
   <img src="/projects/NLP-Sentiment-Analysis-Bestbuy-Reviews/images/Picture7.png" alt="Data in MongoDB" width="70%"/>
 </p>
 
----
+
+<p> &nbsp;</p>  
+
+
 
 ## Conclusion
 
@@ -134,7 +141,10 @@ This project highlights the **power of NLP** in extracting actionable insights f
 
 **Important Note:** Reviews on Trustpilot tend to be biased toward negative experiences, as customers with complaints are more likely to leave feedback. While not fully representative, the dataset provides **valuable insights into key service issues**.
 
----
+
+<p> &nbsp;</p>  
+
+
 
 ## References
 
