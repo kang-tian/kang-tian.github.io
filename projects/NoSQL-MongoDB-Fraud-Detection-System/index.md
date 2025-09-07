@@ -4,7 +4,8 @@
 **Project Overview**  
 This project simulates a banking environment and demonstrates how to detect fraudulent transactions using **MongoDB** and **Node.js**. It identifies anomalies in transaction patterns, implements real-time alerts, and performs batch aggregations to pinpoint high-risk users. The project showcases **NoSQL expertise, event-driven architecture, and backend development skills**.
 <p> &nbsp;</p>
-
+**Link to Code:** [GitHub](https://github.com/kang-tian/NoSQL-MongoDB-Financial-Fraud-Detection-System)
+<p> &nbsp;</p>
 
 ## **Project Objectives**
 - Simulate realistic bank transaction data for analysis.
