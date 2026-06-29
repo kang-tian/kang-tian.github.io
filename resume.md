@@ -41,39 +41,20 @@ Data-driven analyst with **extensive experience** in **data and business analysi
 <p> &nbsp; </p>
 
 ## 💼 Professional Experience
+### Data Analyst, Quality System – Skyworks Solution Inc. (Ottawa) | 2026
+
 ### Business Data Analyst – CAA North & East Ontario (Ottawa) | 2024–2025
-- Built KPI dashboards with **Power BI (Fabric)**; monitored insurance, travel, and membership metrics.  
-- Conducted predictive modeling using **Python** and AI platforms for churn and engagement forecasting.
-- Performed data extraction and validation with **SQL**.
-- **Tools:** Python, Power BI, SQL (SSMS), DataRobot  
 
 ### Data Analyst – OTTAPRO Education Corp (Ottawa) | 2023–2024  
-- Created weekly/monthly dashboards and reports for financial and operational KPIs.  
-- Conducted A/B testing and customer segmentation analyses.  
-- Performed ETL with **SQL (SSMS)**.
-- **Tools:** Python, Power BI, Excel, SQL  
 
 ### Business Analyst – Shanghai International Airport Co., Ltd. | 2023  
-- Designed dashboards and predictive models for revenue optimization.  
-- Processed large datasets with **SQL** and performed statistical analysis with Python and SAS.  
-- **Tools:** SQL, Python, SAS, Power BI  
 
 ### Equity Research Analyst – SOTON Capital (UK) | 2020–2021  
-- Built DCF and financial models; analyzed stocks and industries.  
-- Visualized insights using **Tableau**.  
-- **Tools:** Excel, Python, Tableau, PowerPoint  
-
-### Trading Quant Researcher – Goldman Sachs (UK) | 2020  
-- Implemented trading strategies and created performance dashboards.  
-- **Tools:** Python, Excel, PowerPoint  
 
 ### Strategic Analyst – MOTIV8 SOUTH Ltd. (UK) | 2020  
-- Conducted A/B testing and optimized CRM campaigns; created dashboards.  
-- **Tools:** Power BI, Excel, PowerPoint, SQL  
 
 ### Wealth Management Intern – AIA (Hong Kong) | 2018  
-- Performed client segmentation and data-driven investment analysis.  
-- **Tools:** Excel, PowerPoint
+
 
 <p> &nbsp; </p>
 
