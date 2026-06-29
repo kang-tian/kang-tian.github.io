@@ -17,13 +17,13 @@ categories: [resume, portfolio]
 
 ## 📝 Summary
 
-Data-driven analyst with **extensive experience** in **data and business analysis, modeling, visualization, reporting, and data engineering** across industries including financial services, marketing, insurance, automobile, travel, and non-profit organizations. Skilled at translating complex data into actionable insights using **programming languages *(Python, R, SAS, JavaScript/Node.js)*, databases *(SQL, NoSQL)*, and visualization tools *(Power BI, Tableau, Excel)***. Holding a **master degree in Economics** and currently enhancing **full-stack development and cloud computing** skills through a Computer Programming diploma to bridge the gap between data analysis and scalable technical solutions.
+Data-driven analyst with **extensive experience** in **data and business analysis, modeling, visualization, reporting, and data engineering** across industries including semmiconductor,financial services, marketing, insurance, automobile, travel, and non-profit organizations. Skilled at translating complex data into actionable insights using **programming languages *(Python, R, SAS, JavaScript/Node.js)*, databases *(SQL, NoSQL)*, and visualization tools *(Power BI, Tableau, Excel)***. Holding a **master degree in Economics** and currently enhancing **full-stack development and cloud computing** skills through a Computer Programming diploma to bridge the gap between data analysis and scalable technical solutions.
 
 <p> &nbsp; </p>
 
 ## 🌟 Highlights
 - **Data Analysis & Visualization:** Python, R, SAS (Advanced Certificated), Power BI (Power Automate), Tableau, Looker, Excel (Macro, VBA) 
-- **ETL & Database Management:** SQL (MS SQL, Oracle, MySQL, MariaDB PostgreSQL), NoSQL (MongoDB), Fabric Data Warehouse, ETL tools 
+- **ETL & Database Management:** SQL (MS SQL, Databricks, Oracle, MySQL, MariaDB PostgreSQL), NoSQL (MongoDB), Fabric Data Warehouse, ETL tools 
 - **Machine Learning / AI:** Python (TensorFlow, scikit-learn,PyTorch, statsmodels, ...), AWS SageMaker, DataRobot
 - **Web & Full-Stack Development:** HTML, CSS, Java, JavaScript/Node.js., PHP, PDO, React, VS Code, Git
 - **Cloud Platforms:** AWS (AWS Certified AI Practitioner), Microsoft Azure, Google Cloud
